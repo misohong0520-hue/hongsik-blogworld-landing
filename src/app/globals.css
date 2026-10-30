@@ -148,7 +148,8 @@ body { margin: 0; color: var(--landing-ink); }
 @media (prefers-reduced-motion: no-preference) {
   html { scroll-behavior: smooth; }
 }
-.landing-glows { pointer-events: none; position: absolute; z-index: -1; top: 0; left: 50%; transform: translateX(-50%); width: 1440px; height: 4633px; background-image: url('/figma/205f7.svg'), url('/figma/c5a56.svg'), url('/figma/c683b.svg'), url('/figma/08cdd.svg'), url('/figma/08cdd.svg'), url('/figma/c5a56.svg'); background-size: 2634px 2634px; background-repeat: no-repeat; background-position: -1317px -1280px, 123px -730px, -624px -781px, -419px -1364px, -1194px 1176px, 123px 2278px; }
+/* Extend the paint area while keeping the glows anchored to the 1440px design's center. */
+.landing-glows { pointer-events: none; position: absolute; z-index: -1; top: 0; left: 50%; transform: translateX(-50%); width: max(1440px, 100%); height: 4633px; background-image: url('/figma/205f7.svg'), url('/figma/c5a56.svg'), url('/figma/c683b.svg'), url('/figma/08cdd.svg'), url('/figma/08cdd.svg'), url('/figma/c5a56.svg'); background-size: 2634px 2634px; background-repeat: no-repeat; background-position: calc(50% - 720px) -1280px, calc(50% + 720px) -730px, calc(50% - 27px) -781px, calc(50% + 178px) -1364px, calc(50% - 597px) 1176px, calc(50% + 720px) 2278px; }
 @media (max-width: 900px) {
   .landing-glows { top: 88px; left: 0; transform: none; width: 100%; height: 740px; background-image: url('/figma/6190a.svg'), url('/figma/50ba5.svg'); background-size: 1620.252px 1620.252px; background-position: -755.126px -695.126px, -435.126px -355.126px; }
 }
