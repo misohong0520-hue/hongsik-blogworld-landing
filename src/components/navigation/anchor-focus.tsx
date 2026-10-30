@@ -16,7 +16,8 @@ export function AnchorFocus() {
       }
       const target = id ? document.getElementById(id) : null;
       if (!target) return null;
-      const heading = target.matches("main") ? target : target.querySelector<HTMLElement>("h1, h2, h3");
+      const headingOwner = target.closest("[data-journey-card]") ?? target;
+      const heading = target.matches("main") ? target : headingOwner.querySelector<HTMLElement>("h1, h2, h3");
       return { id, target, focusTarget: heading ?? target };
     };
 
@@ -50,7 +51,9 @@ export function AnchorFocus() {
       // Align the content rather than the section's decorative top padding.
       const scrollTarget = target.matches("section") ? focusTarget : target;
       const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
-      const destination = id === "home" ? 0 : Math.max(0, Math.min(maxScroll, scrollTarget.getBoundingClientRect().top + origin - 32));
+      const journeyNavigation = target.closest("#features")?.querySelector<HTMLElement>("[data-journey-nav]");
+      const offset = journeyNavigation && window.innerWidth <= 900 ? journeyNavigation.getBoundingClientRect().height + 20 : 32;
+      const destination = id === "home" ? 0 : Math.max(0, Math.min(maxScroll, scrollTarget.getBoundingClientRect().top + origin - offset));
       const distance = destination - origin;
       const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       const scroll = (top: number) => window.scrollTo({ top, behavior: "instant" });

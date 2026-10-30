@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "preview": "node scripts/serve-preview.mjs",
     "build": "next build",
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint",
-    "test:interactions": "node --test --test-timeout=15000 tests/navigation.test.mjs",
+    "test:interactions": "node --test --test-timeout=15000 tests/navigation.test.mjs tests/journey.test.mjs tests/feature-video.test.mjs",
     "prepare:backgrounds": "node scripts/prepare-backgrounds.mjs",
     "package:release": "node scripts/package-release.mjs"
   },

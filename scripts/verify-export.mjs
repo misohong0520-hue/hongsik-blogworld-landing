@@ -35,6 +35,19 @@ for (const image of document.querySelectorAll("img")) {
   assert(image.hasAttribute("alt"), "Every image needs an alt attribute");
   assert(Number(image.getAttribute("width")) > 0 && Number(image.getAttribute("height")) > 0, "Images need intrinsic dimensions");
 }
+const featureVideos = [...document.querySelectorAll("#features video[data-feature-video]")];
+assert.deepEqual(featureVideos.map((video) => video.getAttribute("data-feature-video")), ["writing", "cardnews", "repost", "indexing"], "Four demonstrations must map to their intended feature cards");
+for (const video of featureVideos) {
+  const name = video.getAttribute("data-feature-video");
+  assert.equal(video.getAttribute("src"), `https://blogfactory.kr/detail/blog-factory/features/${name}.mp4`);
+  for (const attribute of ["loop", "muted", "playsinline", "controls"]) assert(video.hasAttribute(attribute), `Video needs ${attribute}: ${name}`);
+  assert.equal(video.getAttribute("preload"), "none", "Video loading starts when approaching the viewport");
+  assert(!video.hasAttribute("autoplay"), "The controller selects one video; HTML must not start all players");
+  assert(!video.hasAttribute("poster"), "No separate thumbnails");
+  assert.equal(video.getAttribute("width"), "860");
+  assert.equal(video.getAttribute("height"), "484");
+  assert(video.getAttribute("aria-label"), "Video needs an accessible name");
+}
 for (const element of document.querySelectorAll("[aria-labelledby]")) {
   for (const id of element.getAttribute("aria-labelledby").split(/\s+/)) assert(ids.has(id), `Missing accessible label: ${id}`);
 }

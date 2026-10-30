@@ -2,6 +2,18 @@
 
 HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit 미션 5의 기획 → Figma 디자인 → 구현 → 검수 → 배포 흐름으로 진행합니다.
 
+**현재 작업: 기능 중심 내용 흐름과 곡선 인터랙션을 로컬에서 검토 중입니다. 공개 배포·GitHub 전송은 사용자 승인 전까지 진행하지 않습니다.** `npm run build` 후 `npm run preview`를 실행하고 [로컬 미리보기](http://127.0.0.1:3130/?review=feature-journey)를 여세요. 변경 범위와 검증은 [로컬 시안 기록](docs/feature-journey-local.md)에 있습니다. 아래 배포 내용은 이전 공개 버전의 이력입니다.
+
+큰 문의 섹션을 제거하고 푸터에 연락 채널 아이콘 7개만 작게 배치했습니다. 이메일은 `support@hongsik.blog`로 연결하며, 오른쪽 아래의 민트색 ‘사용 상담’ 링크는 아이콘 모음으로 이동합니다. [변경 기록](docs/contact-icons-floating.md).
+
+상단의 중복 안내·문의 링크는 단일 메뉴로 합쳤습니다. 홈·기능·이용 안내·사용 과정과 민트 문의 버튼을 같은 메뉴에 배치하며 모바일에서도 표시합니다. [변경 기록](docs/header-navigation-cleanup.md).
+
+첫 화면은 ‘글감 고민은 줄이고, 콘텐츠는 더 다양하게.’로 바꾸고 짧은 본문·밑줄과 ‘주요 기능 살펴보기’ 버튼 하나로 정리했습니다. 이메일 보조 링크는 숨겼습니다. [변경 기록](docs/hero-refinement.md).
+
+곡선의 오른쪽 기능 카드에는 제공된 시연 영상 4개를 배치했습니다. 화면 중앙에 들어온 영상 하나만 무음 반복 재생하며, 스크롤 이탈·탭 숨김·사용자 일시정지를 처리합니다. [동작과 검증](docs/scroll-feature-videos.md).
+
+기능 미리보기·운영자 고민·곡선 기능·플랫폼·시작 안내·기본 과정은 작은 주제 표시와 검정/초록 제목, 짧은 설명으로 읽기 계층을 통일했습니다. [섹션 제목 정리](docs/section-intro-consistency.md).
+
 **AWS 서브도메인 배포와 GitHub 공개 소스 등록을 완료했습니다.**
 
 - 배포 URL: [blogworld.hongsik.blog](https://blogworld.hongsik.blog/)
@@ -79,7 +91,7 @@ scripts/package-release.mjs 검증된 정적 릴리스 패키지 생성
 scripts/verify-deployment.mjs 공개 파일·TLS·캐시·기존 사이트 검사
 ```
 
-`src/components/header/`, `hero/`, `workflow/`, `support/`, `features/`, `benefits/`, `process/`, `contact/`, `footer/`에 원본 템플릿 순서의 실제 섹션을 구성했습니다.
+현재 화면은 `src/components/header/`, `hero/`, `overview/`, `journey/`, `contact/`, `footer/`로 구성합니다. `journey/`의 서버 컴포넌트는 본문을 미리 렌더링하고 `JourneyMotion`만 스크롤 상태를 관찰합니다. 이전 `workflow/`, `support/`, `features/`, `benefits/`, `process/`는 복구 참고용으로 보존하며 현재 페이지에서 렌더링하지 않습니다.
 별도 URL이 필요하면 `src/app/<경로>/page.tsx`로 추가합니다.
 
 ## 검증 범위

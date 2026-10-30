@@ -443,3 +443,39 @@ test("현재 메뉴는 전체 wrapper 대신 섹션 경계를 따르며 연속 �
   await act(() => { window.dispatchEvent(new window.Event("scroll")); flushFrames(); });
   assert.deepEqual(active(), ["#contact"]);
 });
+
+test("문서 끝의 작은 문의 채널은 상단 경계에 닿지 않아도 표시하고 화면 밖·끝 이전에는 선택하지 않는다", async () => {
+  for (const id of ["features", "guide", "process"]) {
+    document.getElementById(id).getBoundingClientRect = () => ({ top: -500 });
+  }
+  document.getElementById("contact").outerHTML = '<nav id="contact" aria-label="문의 채널"><a href="mailto:support@hongsik.blog">이메일</a></nav>';
+  let contactTop = 610;
+  document.getElementById("contact").getBoundingClientRect = () => ({ top: contactTop, bottom: contactTop + 60 });
+  const active = () => document.querySelector("nav[aria-label='상단 메뉴'] a[aria-current='location']")?.getAttribute("href");
+  const scroll = async (position) => {
+    scrollPosition = position;
+    await act(() => { window.dispatchEvent(new window.Event("scroll")); flushFrames(); });
+  };
+
+  scrollPosition = 5197; // Three pixels before the end: retain the ordinary section state.
+  await mount(HeaderNavigation);
+  await act(flushFrames);
+  assert.equal(active(), "#process");
+
+  await scroll(5198); // Account for up to two pixels of fractional layout rounding.
+  assert.equal(active(), "#contact");
+
+  contactTop = 800; // The contact target below the viewport must not be inferred as visible.
+  await scroll(5200);
+  assert.equal(active(), "#process");
+
+  contactTop = 610;
+  await scroll(5200);
+  assert.equal(active(), "#contact");
+  await scroll(5100);
+  assert.equal(active(), "#process");
+
+  document.getElementById("contact").remove();
+  await scroll(5200);
+  assert.equal(active(), "#process");
+});

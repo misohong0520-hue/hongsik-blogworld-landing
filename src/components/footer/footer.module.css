@@ -1,10 +1,7 @@
-.footer { --landing-muted: #a6a6a6; padding: 88px 0 28px; background: #161c28; color: #fff; }
+.footer { --landing-muted: #a6a6a6; padding: 88px 0 calc(108px + env(safe-area-inset-bottom, 0px)); background: #161c28; color: #fff; }
 .grid { display: grid; grid-template-columns: minmax(0, 410px) minmax(0, 1fr); column-gap: clamp(48px, 8vw, 96px); align-items: start; }
 .brandColumn { min-width: 0; }
 .tagline { margin: 24px 0 0; color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; }
-.emailLink { display: flex; align-items: center; justify-content: space-between; width: 410px; max-width: 100%; height: 60px; margin-top: 24px; padding: 5px 5px 5px 18px; border: 2px solid var(--landing-muted); border-radius: 70px; color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; text-decoration: none; }
-.arrow { display: grid; place-items: center; flex: 0 0 46px; width: 46px; height: 46px; }
-.arrow img { grid-column: 1; grid-row: 1; }
 .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; }
 .column { min-width: 0; }
 .column h2 { margin: 0; color: #fff; font-size: 18px; font-weight: 500; line-height: 26px; }
@@ -12,16 +9,13 @@
 .column a { display: inline-block; padding-block: 2px; color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 28px; text-decoration: none; }
 .column a:hover { color: #fff; text-decoration: underline; }
 .bottom { margin-top: 40px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / 12%); }
-.bottom p { margin: 0; font-family: var(--font-inter, Inter), sans-serif; font-size: 14px; font-weight: 500; line-height: 22px; overflow-wrap: anywhere; }
+.legal { margin: 0; color: #a6a6a6; font-family: var(--font-inter, Inter), sans-serif; font-size: 14px; font-weight: 500; line-height: 22px; letter-spacing: .16em; text-transform: uppercase; overflow-wrap: anywhere; }
 @media (max-width: 900px) {
-  .footer { padding: 56px 0 24px; }
+  .footer { padding: 56px 0 calc(98px + env(safe-area-inset-bottom, 0px)); }
   .grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .tagline { margin-top: 20px; font-size: 16px; line-height: 26px; }
-  .emailLink { height: 56px; font-size: 16px; }
-  .arrow { width: 42px; height: 42px; flex-basis: 42px; }
-  .arrow img:first-child { width: 42px; height: 42px; }
   .columns { gap: 24px; }
   .column ul { margin-top: 20px; gap: 10px; }
   .bottom { margin-top: 32px; padding-top: 20px; }
-  .bottom p { font-size: 13px; }
+  .legal { font-size: 13px; letter-spacing: .12em; }
 }

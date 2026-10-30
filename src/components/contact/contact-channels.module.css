@@ -1,0 +1,5 @@
+.channels { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; width: 400px; max-width: 100%; margin-top: 26px; scroll-margin-top: 32px; }
+.channel { display: grid; place-items: center; width: 100%; aspect-ratio: 1; min-width: 0; padding: 0; border: 1px solid #d5d1c8; border-radius: 0; background: #f1efe9; color: #191a15; text-decoration: none; }
+a.channel:hover { background: #fff; border-color: #fff; }
+.channels:focus-visible { outline: 3px solid #54bd95; outline-offset: 5px; }
+@media (max-width: 374px) { .channel > svg { width: 20px; height: 20px; } }
