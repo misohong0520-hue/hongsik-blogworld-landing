@@ -27,7 +27,7 @@ export function Footer() {
           </nav>
         </div>
         <div className={styles.bottom}>
-          <p>© HongSik BlogWorld · blogworld.hongsik.blog</p>
+          <Brand className={styles.bottomBrand} />
         </div>
       </div>
     </footer>
