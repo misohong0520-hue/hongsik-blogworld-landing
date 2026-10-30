@@ -1,5 +1,7 @@
 # Figma 디자인 원본과 인계 자료
 
+최신 표시 예외: 원본 `0:387`의 안내 문구 3줄은 숨겼다. `usage-notice-hidden.json`, [기록](../docs/usage-notice-hidden.md)을 따른다. 최신 모바일 출력은 390×8781이다.
+
 사용 안내 아래 반복 로고 4개·재생 버튼은 PC·모바일에서 제거됐다. 최신 변경은 `usage-marks-removal.json`과 [수정 기록](../docs/usage-marks-removal.md)을 따른다. 이전 감사는 각 변경 직전의 이력이다.
 
 최신 메인 이미지는 사용자 승인 `../public/images/hero-product.png`로 교체됐다. `hero-product-state.json`, `hero-product-audit.json`, [메인 이미지 교체 기록](../docs/hero-product-image.md)을 함께 따른다. 원본 인물·민트 배경·장식 카드는 하나의 제품 이미지로 대체하며 중복 렌더링하지 않는다. `desktop-template.png`와 `mobile-template.png`도 교체 후 화면으로 갱신했다.

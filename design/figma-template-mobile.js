@@ -64,7 +64,7 @@ await decoration('0:177', photo, 342, 0, 0); await decoration('0:206', photo, 23
 await decoration('0:171', photo, 37, 8, 245);
 const stages = section('Preparation / writing / publishing in original card positions', 28, 48, 64); await text('0:236', stages, 30, 342, 1.4); await text('0:237', stages, 16);
 await clone('0:238', stages, 300); for (const id of ['0:285', '0:325', '0:244']) await clone(id, stages, 342);
-const dark = section('Continuous dark usage guide / contact / footer', 32, 56, 40, (await src('0:79')).fills); await text('0:385', dark, 30, 342, 1.4); await text('0:384', dark, 16); await text('0:387', dark, 16); await text('0:388', dark, 16);
+const dark = section('Continuous dark usage guide / contact / footer', 32, 56, 40, (await src('0:79')).fills); await text('0:385', dark, 30, 342, 1.4); await text('0:384', dark, 16); await text('0:388', dark, 16); // User-approved: omit notice 0:387.
 // User-approved: omit the decorative avatar/play row; keep the usage guide and contact.
 const contact = stack(dark, 'Contact / adapted original card', 342, 20); contact.paddingLeft = contact.paddingRight = 24; contact.paddingTop = contact.paddingBottom = 28; contact.cornerRadius = 20; contact.fills = paint((await src('0:399')).fills);
 const contactLogoRow = stack(contact, 'Contact brand mark row', 294, 0, true); contactLogoRow.primaryAxisAlignItems = 'CENTER'; const contactLogo = extraClone('Contact brand mark / 0:416', contactLogoRow); contactLogo.rescale(58 / contactLogo.width); const contactTitle = await text('0:415', contact, 26, 294, 1.4); contactTitle.textAlignHorizontal = 'CENTER';

@@ -24,11 +24,12 @@
 
 - Figma 파일 `h2yyAh96bomjU0WmO6NRiw`, 원본 메인 프레임 `0:7` (1440×5850).
 - 링크의 `2:5`는 Thumb 페이지이며 실제 시안은 Design 페이지에 있다.
-- 실제 구현 기준은 별도 페이지 `115:2`의 PC `115:6`(1440×5850)와 모바일 `123:5`(390×약8891)다. 이전 `104:*` 재설계 초안은 폐기됐으며 `Archive · Superseded layout`에 남아 있다. 원본 두 페이지는 수정하지 않는다.
+- 실제 구현 기준은 별도 페이지 `115:2`의 PC `115:6`(1440×5850)와 모바일 `123:5`(390×약8781)다. 이전 `104:*` 재설계 초안은 폐기됐으며 `Archive · Superseded layout`에 남아 있다. 원본 두 페이지는 수정하지 않는다.
 - PC는 원본 `0:7`을 직접 복제한 것으로 섹션 순서·좌우 배치·이미지/장식 위치·3개 카드 배열·원본 색상·크기·여백·하단의 어두운 문의/푸터를 유지한다. 이름·H 로고·문구·필요한 그래픽만 교체한다. 임의 FAQ나 4개 문자 카드를 새로 추가하지 않는다.
 - 원본 노드별 문구는 `design/template-copy.json`, 현재 노드 매핑은 `design/template-state.json`, 엄격 비교 결과는 `design/template-audit.json`이다. `docs/template-correction.md`와 `docs/verification-template-correction.md`를 따른다.
 - 사용자가 승인한 메인 이미지는 `public/images/hero-product.png`다. PC·모바일의 기존 인물/민트 배경/주변 카드 전체를 이 한 장으로 교체했으며, `design/hero-product-state.json`, `design/hero-product-audit.json`, `docs/hero-product-image.md`를 우선 적용한다. 나머지 레이아웃은 유지한다. 기존 그래픽 그룹은 복구 및 크기 보존을 위해 opacity 0으로 남아 있으므로 웹에 함께 렌더링하지 않는다.
 - 사용 안내 아래 반복 H 로고 4개와 재생 버튼 행은 사용자 승인으로 제거했다. `docs/usage-marks-removal.md`, `design/usage-marks-removal.json`을 따른다. 사용 안내 문구와 문의 카드는 유지하고, 모바일 행의 98px 공간은 접는다. 이전 원본 감사·메인 이미지 교체 감사는 해당 변경 전 이력이다.
+- 사용자 요청으로 ‘AI 원고는 발행 전에…’로 시작하는 3줄 문구(원본 `0:387`, PC `115:386`, 모바일 `123:480`)를 숨겼다. `docs/usage-notice-hidden.md`, `design/usage-notice-hidden.json`을 따른다. 웹에서도 해당 문구를 렌더링하지 않는다. 상단 메뉴는 한 페이지 내 섹션 이동 계획이며 이번 요청에서 메뉴 자체는 바꾸지 않았다.
 - Figma MCP 스킬을 따라 디자인 정보·스크린샷을 읽고, 원본 템플릿을 보존하며 브랜드 시안을 구분한다.
 - 생성된 절대 좌표 코드를 그대로 제품에 사용하지 않고 반응형 구조와 공통 컴포넌트로 구현한다.
 - 가격·평점·회사 로고·인물·금융 문구는 템플릿의 예시이며 앱의 실제 정보가 아니다.

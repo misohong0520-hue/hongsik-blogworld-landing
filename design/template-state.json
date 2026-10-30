@@ -2121,7 +2121,7 @@
       }
     ],
     "width": 390,
-    "height": 8890.66796875,
+    "height": 8780.66796875,
     "nativeDesktopUnchanged": true
   },
   "verification": {
@@ -2174,5 +2174,15 @@
       "123:489"
     ],
     "mobileHeight": 8890.66796875
+  },
+  "usageNoticeHidden": {
+    "verified": true,
+    "sourceId": "0:387",
+    "nodeIds": [
+      "115:386",
+      "123:480"
+    ],
+    "evidence": "design/usage-notice-hidden.json",
+    "mobileHeight": 8780.66796875
   }
 }
