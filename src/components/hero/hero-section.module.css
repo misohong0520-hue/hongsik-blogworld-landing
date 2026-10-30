@@ -1,16 +1,18 @@
-.section { padding-top: 130px; position: relative; }
-.layout { display: grid; grid-template-columns: minmax(0, 555fr) minmax(0, 590fr); gap: 35px; align-items: start; }
+.section { padding-top: 100px; position: relative; }
+.layout { display: grid; grid-template-columns: minmax(0, 555fr) minmax(0, 590fr); gap: 35px; align-items: center; }
 .copy { min-width: 0; }
-.copy h1 { color: var(--landing-ink); font-size: 80px; font-weight: 700; line-height: 90px; margin: 0; }
-.underline { position: relative; width: 479px; max-width: 100%; height: 26px; margin-top: 30px; }
-.underline img { position: absolute; left: -.835%; top: -15.385%; width: 101.67%; height: 130.77%; max-width: none; }
-.description { width: 461px; max-width: 100%; margin: 50px 0 0; font-size: 18px; line-height: 30px; font-weight: 500; color: #000; }
-.actions { display: flex; align-items: center; gap: 40px; margin-top: 50px; }
-.inquiry { width: 165px; height: 62px; border-radius: 40px; font-size: 18px; font-weight: 500; }
-.process { display: inline-flex; align-items: center; gap: 14px; color: var(--landing-ink); text-decoration: none; font-size: 18px; line-height: 22px; font-weight: 500; white-space: nowrap; }
-.process img { width: 40px; height: 40px; flex: none; }
+.copy h1 { color: var(--landing-ink); font-size: clamp(38px, 4.4vw, 56px); font-weight: 700; line-height: 1.3; letter-spacing: -.04em; margin: 0; }
+.copy h1 span { display: block; white-space: nowrap; }
+.underline { display: block; width: 240px; max-width: 60%; height: auto; margin-top: 20px; color: var(--landing-mint); }
+.description { width: 510px; max-width: 100%; margin: 28px 0 0; font-size: 16px; line-height: 1.9; font-weight: 400; color: var(--landing-muted); word-break: keep-all; overflow-wrap: anywhere; }
+.description span { display: block; }
+.actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px 24px; margin-top: 32px; }
+.primary { min-width: 224px; min-height: 58px; height: auto; padding: 16px 26px; border-radius: 999px; font-size: 16px; line-height: 24px; font-weight: 500; gap: 12px; }
+.secondary { display: inline-flex; align-items: center; gap: 9px; min-height: 48px; padding: 6px 2px; color: var(--landing-ink); text-decoration: none; font-size: 15px; line-height: 22px; font-weight: 500; white-space: nowrap; }
+.secondary > svg { flex: none; color: var(--landing-link); }
+.secondary:hover { color: var(--landing-link); text-decoration: underline; }
 .art { width: calc(100% + clamp(24px, calc((100vw - 1180px) / 2), 112px)); aspect-ratio: 701.68335 / 558.98956; position: relative; overflow: hidden; }
 .art img { position: absolute; max-width: none; width: 109.813%; height: auto; left: -5.01%; top: -18.45%; }
-@media (min-width: 901px) and (max-width: 1150px) { .copy h1 { font-size: 64px; line-height: 1.16; } .art { width: calc(100% + 24px); } .actions { gap: 16px; } }
-@media (max-width: 900px) { .section { padding: 28px 0 48px; overflow: clip; } .layout { display: flex; flex-direction: column; gap: 24px; } .copy { display: flex; flex-direction: column; gap: 24px; width: 100%; } .copy h1 { font-size: 38px; line-height: 46px; } .underline { width: 318px; max-width: 100%; height: auto; aspect-ratio: 479 / 26; margin: 0; } .description { width: 100%; margin: 0; font-size: 16px; line-height: 26px; } .actions { gap: 16px; margin: 0; } .art { width: 100%; max-width: 600px; align-self: center; } }
-@media (max-width: 374px) { .actions { gap: 10px; flex-wrap: wrap; } .process { font-size: 16px; gap: 8px; } }
+@media (min-width: 901px) and (max-width: 1150px) { .section { padding-top: 84px; } .art { width: calc(100% + 24px); } .actions { gap: 10px 18px; } }
+@media (max-width: 900px) { .section { padding: 30px 0 48px; overflow: clip; } .layout { display: flex; flex-direction: column; gap: 32px; } .copy { width: 100%; } .copy h1 { font-size: clamp(28px, 8.8vw, 48px); } .underline { width: 190px; margin-top: 16px; } .description { width: 100%; margin-top: 24px; font-size: 15px; line-height: 1.85; } .actions { margin-top: 26px; } .art { width: 100%; max-width: 600px; align-self: center; } }
+@media (max-width: 520px) { .actions { align-items: flex-start; gap: 10px; } .primary { min-width: 0; width: 100%; max-width: 320px; min-height: 56px; } .secondary { font-size: 14px; } }

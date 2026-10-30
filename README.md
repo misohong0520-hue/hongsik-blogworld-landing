@@ -8,6 +8,8 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 
 상단의 중복 안내·문의 링크는 단일 메뉴로 합쳤습니다. 홈·기능·이용 안내·사용 과정과 민트 문의 버튼을 같은 메뉴에 배치하며 모바일에서도 표시합니다. [변경 기록](docs/header-navigation-cleanup.md).
 
+첫 화면은 ‘글감 고민은 줄이고, 콘텐츠는 더 다양하게.’로 바꾸고 짧은 본문·밑줄과 기능 소개/이메일 문의 버튼으로 정리했습니다. [변경 기록](docs/hero-refinement.md).
+
 **AWS 서브도메인 배포와 GitHub 공개 소스 등록을 완료했습니다.**
 
 - 배포 URL: [blogworld.hongsik.blog](https://blogworld.hongsik.blog/)
