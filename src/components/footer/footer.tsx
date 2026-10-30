@@ -27,7 +27,7 @@ export function Footer() {
           </nav>
         </div>
         <div className={styles.bottom}>
-          <p className={styles.legal}>© 2026 TTJ · ALL RIGHTS RESERVED</p>
+          <p className={styles.legal}>© 2026 HongSik BlogWorld · ALL RIGHTS RESERVED</p>
         </div>
       </div>
     </footer>
