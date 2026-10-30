@@ -2,12 +2,6 @@
 .grid { display: grid; grid-template-columns: minmax(0, 410px) minmax(0, 1fr); column-gap: clamp(48px, 8vw, 96px); align-items: start; }
 .brandColumn { min-width: 0; }
 .tagline { margin: 24px 0 0; color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; }
-.emailLink { display: inline-flex; align-items: center; gap: 16px; max-width: 100%; min-height: 60px; margin-top: 26px; color: #fff; font-size: 16px; font-weight: 500; line-height: 26px; text-decoration: none; }
-.emailIcon { display: grid; place-items: center; flex: 0 0 60px; width: 60px; height: 60px; border: 1px solid #d5d1c8; background: #f1efe9; color: #191a15; }
-.emailText { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
-.emailAddress { color: var(--landing-muted); font: 400 13px/22px var(--font-inter), sans-serif; overflow-wrap: anywhere; }
-.emailLink:hover .emailIcon { background: #fff; border-color: #fff; }
-.emailLink:hover .emailText > span:first-child { text-decoration: underline; }
 .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; }
 .column { min-width: 0; }
 .column h2 { margin: 0; color: #fff; font-size: 18px; font-weight: 500; line-height: 26px; }
@@ -20,8 +14,6 @@
   .footer { padding: 56px 0 calc(98px + env(safe-area-inset-bottom, 0px)); }
   .grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .tagline { margin-top: 20px; font-size: 16px; line-height: 26px; }
-  .emailLink { gap: 14px; min-height: 56px; font-size: 15px; }
-  .emailIcon { width: 56px; height: 56px; flex-basis: 56px; }
   .columns { gap: 24px; }
   .column ul { margin-top: 20px; gap: 10px; }
   .bottom { margin-top: 32px; padding-top: 20px; }

@@ -27,6 +27,12 @@ export function HeaderNavigation() {
         const target = document.getElementById(id);
         if (target && target.getBoundingClientRect().top <= boundary) section = id;
       }
+      // A compact footer contact target may never reach the upper boundary.
+      const atBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2;
+      if (atBottom) {
+        const contact = document.getElementById("contact")?.getBoundingClientRect();
+        if (contact && contact.top < window.innerHeight && contact.bottom > 0) section = "contact";
+      }
       setCurrent(section);
     };
     const schedule = () => {

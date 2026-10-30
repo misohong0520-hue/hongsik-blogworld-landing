@@ -31,3 +31,8 @@ Lucide-derived arrow asset: ISC License, notice provided at:
 
 HongSik H logo and product image: supplied by the project owner.
 Third-party licenses do not change the ownership of the HongSik brand or app.
+
+YouTube, Instagram and Threads brand paths: Simple Icons, CC0 1.0.
+Source: https://github.com/simple-icons/simple-icons
+Full notice: /licenses/SimpleIcons-CC0.txt
+Brand trademarks remain with their respective owners.

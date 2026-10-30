@@ -4,7 +4,7 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 
 **현재 작업: 기능 중심 내용 흐름과 곡선 인터랙션을 로컬에서 검토 중입니다. 공개 배포·GitHub 전송은 사용자 승인 전까지 진행하지 않습니다.** `npm run build` 후 `npm run preview`를 실행하고 [로컬 미리보기](http://127.0.0.1:3130/?review=feature-journey)를 여세요. 변경 범위와 검증은 [로컬 시안 기록](docs/feature-journey-local.md)에 있습니다. 아래 배포 내용은 이전 공개 버전의 이력입니다.
 
-하단 이메일 문의는 사각 메일 아이콘과 주소로 표시하고, 오른쪽 아래에 문의 섹션으로 이동하는 고정 ‘사용 상담’ 링크를 추가했습니다. [변경 기록](docs/contact-icons-floating.md).
+큰 문의 섹션을 제거하고 푸터에 연락 채널 아이콘 7개만 작게 배치했습니다. 이메일은 `support@hongsik.blog`로 연결하며, 오른쪽 아래의 민트색 ‘사용 상담’ 링크는 아이콘 모음으로 이동합니다. [변경 기록](docs/contact-icons-floating.md).
 
 **AWS 서브도메인 배포와 GitHub 공개 소스 등록을 완료했습니다.**
 

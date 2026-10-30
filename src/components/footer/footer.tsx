@@ -1,6 +1,5 @@
-import { Mail } from "lucide-react";
 import { Brand } from "@/components/brand/brand";
-import { site } from "@/lib/site";
+import { ContactChannels } from "@/components/contact/contact-channels";
 import styles from "./footer.module.css";
 
 const columns = [
@@ -16,10 +15,7 @@ export function Footer() {
           <div className={styles.brandColumn}>
             <Brand />
             <p className={styles.tagline}>키워드부터 블로그 발행까지.</p>
-            <a className={styles.emailLink} href={site.supportHref}>
-              <span className={styles.emailIcon}><Mail size={24} strokeWidth={1.8} aria-hidden="true" /></span>
-              <span className={styles.emailText}><span>이메일 문의</span><span className={styles.emailAddress}>{site.supportEmail}</span></span>
-            </a>
+            <ContactChannels />
           </div>
           <nav aria-label="하단 메뉴" className={styles.columns}>
             {columns.map((column) => (
