@@ -1,11 +1,9 @@
-.eyebrow { margin: 0 0 18px; color: var(--landing-link); font-size: 13px; line-height: 1.6; font-weight: 650; letter-spacing: .06em; }
-.sectionDescription { max-width: 420px; margin: 24px 0 0; color: var(--landing-muted); font-size: 16px; line-height: 1.9; word-break: keep-all; }
 .textLink { display: inline-flex; align-items: center; gap: 9px; color: var(--landing-link); font-size: 14px; font-weight: 600; text-decoration: none; }
 .textLink:hover { text-decoration: underline; }
 .textLink svg { flex: none; }
 .overview { position: relative; padding: 75px 0 72px; }
-.overviewHeader { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 34px; }
-.overviewHeader h2 { margin: 0; font-size: 24px; line-height: 1.5; font-weight: 650; letter-spacing: -.035em; word-break: keep-all; }
+.overviewHeader { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; margin-bottom: 34px; }
+.overviewHeader > div { max-width: 680px; }
 .overviewHeader .textLink { flex: none; }
 .quickFeatures { list-style: none; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin: 0; padding: 0; border-top: 1px solid #dce6e0; border-bottom: 1px solid #dce6e0; }
 .quickFeatures li { min-width: 0; }
@@ -17,13 +15,6 @@
 .quickLink:hover { background: #eff8f3; }
 .problems { padding: 84px 0; background: #f7f8f5; }
 .problemGrid { display: grid; grid-template-columns: 1fr 1.08fr; gap: 105px; align-items: center; }
-.problemIntro { min-width: 0; }
-.problemIntro .eyebrow { display: inline-flex; padding: 6px 12px; margin-bottom: 20px; border: 1px solid #d3e6da; border-radius: 999px; background: #edf6f0; font-size: 12px; letter-spacing: .02em; }
-.problemIntro h2 { margin: 0; font-size: clamp(28px, 3.1vw, 38px); line-height: 1.5; letter-spacing: -.045em; font-weight: 700; word-break: keep-all; }
-.problemIntro h2 span { display: block; }
-.problemIntro h2 span:last-child { color: var(--landing-link); }
-.problemIntro .sectionDescription { max-width: 440px; margin-top: 22px; font-size: 15px; line-height: 1.9; }
-.problemClosing { display: block; margin-top: 12px; color: var(--landing-ink); font-weight: 500; }
 .problemList { margin: 0; padding: 0; list-style: none; }
 .problemList li { display: grid; grid-template-columns: 46px minmax(0, 1fr); gap: 18px; padding: 27px 0; border-bottom: 1px solid #dfe6df; }
 .problemList li:first-child { padding-top: 0; }
@@ -33,9 +24,7 @@
 .problemList h3 { font-size: 19px; line-height: 1.5; font-weight: 650; letter-spacing: -.025em; margin: 0 0 9px; word-break: keep-all; }
 .problemList p { font-size: 14px; line-height: 1.85; margin: 0; color: var(--landing-muted); word-break: keep-all; }
 .platforms { position: relative; background: #fff; padding: 104px 0 90px; }
-.platformHeader { display: flex; align-items: flex-end; justify-content: space-between; gap: 56px; margin-bottom: 42px; }
-.platformHeader h2 { margin: 0; font-size: 42px; line-height: 1.4; letter-spacing: -.045em; font-weight: 700; word-break: keep-all; }
-.platformHeader .sectionDescription { margin: 0 0 4px; max-width: 410px; }
+.platformHeader { margin-bottom: 42px; }
 .channelGroups { border-top: 1px solid #dce6e0; border-bottom: 1px solid #dce6e0; }
 .channelGroup { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 30px; align-items: center; padding: 26px 0; }
 .channelGroup + .channelGroup { border-top: 1px solid #edf0ed; }
@@ -48,7 +37,8 @@
 .platformNote { font-size: 12px; color: var(--landing-muted); margin: 16px 0 0; line-height: 1.7; }
 .guide { background: #f0f7f3; padding: 66px 0; }
 .guideGrid { display: grid; grid-template-columns: 1fr 1.08fr; gap: 105px; align-items: center; }
-.guide h2 { margin: 0 0 24px; font-size: 32px; line-height: 1.45; font-weight: 650; letter-spacing: -.04em; }
+.guideIntro { min-width: 0; }
+.guideIntro .textLink { margin-top: 24px; }
 .setupList { list-style: none; padding: 0; margin: 0; }
 .setupList li { display: flex; align-items: center; gap: 17px; padding: 18px 0; color: var(--landing-link); border-bottom: 1px solid #d8e7dd; }
 .setupList li:first-child { padding-top: 0; }
@@ -59,7 +49,6 @@
 .setupCheck { margin-left: auto; }
 .process { padding: 94px 0 105px; background: #fff; }
 .processHeader { margin-bottom: 45px; }
-.processHeader h2 { font-size: 36px; line-height: 1.5; letter-spacing: -.045em; font-weight: 650; margin: 0; word-break: keep-all; }
 .processList { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 42px; }
 .processList li { position: relative; padding: 27px 0 0; border-top: 2px solid #d8e7dd; }
 .processList li::before { content: ""; position: absolute; top: -5px; left: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--landing-mint); }
@@ -67,7 +56,6 @@
 .processList h3 { font-size: 22px; line-height: 1.5; font-weight: 650; letter-spacing: -.025em; margin: 0 0 12px; }
 .processList p { color: var(--landing-muted); margin: 0 0 24px; font-size: 14px; line-height: 1.85; max-width: 310px; min-height: 52px; word-break: keep-all; }
 .processList .textLink { font-size: 13px; }
-.mobileBreak { display: none; }
 @media (max-width: 1050px) {
   .problemGrid, .guideGrid { gap: 56px; }
   .quickLink { padding-inline: 12px; }
@@ -77,7 +65,6 @@
 @media (max-width: 900px) {
   .overview { padding: 40px 0 50px; }
   .overviewHeader { gap: 16px; align-items: flex-start; margin-bottom: 24px; }
-  .overviewHeader h2 { max-width: 300px; font-size: 21px; }
   .overviewHeader .textLink { margin-top: 7px; font-size: 12px; }
   .quickFeatures { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .quickLink { min-height: 130px; padding: 22px 16px; }
@@ -87,49 +74,37 @@
   .quickFeatures li:nth-child(-n+3) { border-bottom: 1px solid #e2e9e5; }
   .problems { padding: 64px 0; }
   .problemGrid { grid-template-columns: 1fr; gap: 38px; }
-  .problemIntro h2 { font-size: 34px; }
-  .sectionDescription { max-width: 560px; margin-top: 18px; font-size: 15px; }
   .problemList { max-width: 650px; }
   .problemList li { padding: 24px 0; }
   .platforms { padding: 70px 0 60px; }
-  .platformHeader { display: block; margin-bottom: 30px; }
-  .platformHeader h2 { font-size: 34px; }
-  .platformHeader .sectionDescription { margin-top: 20px; max-width: 560px; }
+  .platformHeader { margin-bottom: 30px; }
   .channelGroup { grid-template-columns: 170px minmax(0, 1fr); gap: 16px; padding: 22px 0; }
   .channelList { gap: 8px; }
   .channelList li { padding: 10px 15px; font-size: 13px; }
   .repostChannels { gap: 12px; }
   .guide { padding: 55px 0; }
   .guideGrid { grid-template-columns: 1fr; gap: 32px; }
-  .guide h2 { font-size: 30px; }
   .setupList { max-width: 650px; }
   .process { padding: 66px 0 72px; }
   .processHeader { margin-bottom: 32px; }
-  .processHeader h2 { font-size: 29px; }
   .processList { gap: 26px; }
   .processList h3 { font-size: 19px; }
 }
 @media (max-width: 600px) {
   .overviewHeader { display: block; }
-  .overviewHeader h2 { max-width: none; }
   .overviewHeader .textLink { margin-top: 14px; }
   .quickFeatures { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .quickLink { min-height: 126px; padding: 20px 12px; }
   .quickFeatures li:nth-child(3) .quickLink::after { display: block; }
   .quickFeatures li:nth-child(even) .quickLink::after { display: none; }
   .quickFeatures li:nth-child(-n+4) { border-bottom: 1px solid #e2e9e5; }
-  .problemIntro h2 { font-size: clamp(25px, 7.3vw, 30px); }
   .problemList li { grid-template-columns: 40px minmax(0, 1fr); gap: 14px; }
   .problemIcon { width: 40px; height: 40px; border-radius: 12px; }
   .problemList h3 { font-size: 17px; }
-  .platformHeader h2 { font-size: 30px; }
   .channelGroup { display: block; }
   .channelLabel { margin-bottom: 16px; }
   .channelList li { padding: 10px 13px; font-size: 13px; }
   .repostChannels { align-items: flex-start; flex-direction: column; }
-  .guide h2 { font-size: 28px; }
-  .processHeader h2 { font-size: 28px; }
-  .mobileBreak { display: block; }
   .processList { grid-template-columns: 1fr; gap: 32px; }
   .processList li { padding-top: 20px; }
   .processList p { min-height: 0; max-width: none; margin-bottom: 16px; }

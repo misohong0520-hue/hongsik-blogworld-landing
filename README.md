@@ -12,6 +12,8 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 
 곡선의 오른쪽 기능 카드에는 제공된 시연 영상 4개를 배치했습니다. 화면 중앙에 들어온 영상 하나만 무음 반복 재생하며, 스크롤 이탈·탭 숨김·사용자 일시정지를 처리합니다. [동작과 검증](docs/scroll-feature-videos.md).
 
+기능 미리보기·운영자 고민·곡선 기능·플랫폼·시작 안내·기본 과정은 작은 주제 표시와 검정/초록 제목, 짧은 설명으로 읽기 계층을 통일했습니다. [섹션 제목 정리](docs/section-intro-consistency.md).
+
 **AWS 서브도메인 배포와 GitHub 공개 소스 등록을 완료했습니다.**
 
 - 배포 URL: [blogworld.hongsik.blog](https://blogworld.hongsik.blog/)

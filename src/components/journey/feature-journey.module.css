@@ -1,8 +1,5 @@
 .section { padding: 112px 0 104px; background: #f7faf8; position: relative; }
 .intro { margin-bottom: 68px; }
-.eyebrow { margin: 0 0 18px; color: var(--landing-link); font: 600 12px/1.5 var(--font-inter), sans-serif; letter-spacing: .15em; }
-.intro h2 { font-size: clamp(32px, 3.3vw, 46px); line-height: 1.35; letter-spacing: -.045em; font-weight: 700; margin: 0; }
-.intro > p:last-child { margin: 22px 0 0; line-height: 1.85; font-size: 17px; color: var(--landing-muted); }
 .layout { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 68px; align-items: start; }
 .sidebar { position: sticky; top: 36px; min-width: 0; padding-top: 12px; }
 .sidebarTop { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -33,8 +30,10 @@
 .section[data-journey-ready="true"] .card[data-reached="true"] { border-color: #8ccdb0; }
 .section[data-journey-ready="true"] .card[data-current="true"] { box-shadow: 0 8px 35px #143d2710; border-color: #54bd95; }
 .cardHeading { display: flex; justify-content: space-between; gap: 12px; align-items: center; color: #237b57; }
-.step { font-size: 12px; font-weight: 500; letter-spacing: .04em; }
+.step { display: inline-flex; padding: 6px 12px; border: 1px solid #d3e6da; border-radius: 999px; background: #edf6f0; font-size: 12px; line-height: 1.6; font-weight: 650; letter-spacing: .02em; }
 .card h3 { margin: 24px 0 18px; font-size: clamp(25px, 2.1vw, 31px); font-weight: 700; line-height: 1.5; letter-spacing: -.04em; word-break: keep-all; }
+.card h3 > span { display: block; }
+.card h3 > span:last-child { color: var(--landing-link); }
 .lead { font-size: 15px; line-height: 1.95; color: var(--landing-muted); margin: 0; word-break: keep-all; }
 .screenshot { border: 1px solid #e4e9e6; border-radius: 10px; overflow: hidden; margin: 28px 0; background: #f8faf9; }
 .screenshot img { display: block; width: 100%; height: auto; }
@@ -51,9 +50,6 @@
 @media (max-width: 900px) {
   .section { padding: 72px 0; }
   .intro { margin-bottom: 32px; }
-  .intro h2 { font-size: 32px; }
-  .intro > p:last-child { font-size: 15px; }
-  .desktopBreak { display: none; }
   .layout { display: block; }
   .sidebar { top: 0; z-index: 2; padding: 14px 0; background: #f7faf8; border-bottom: 1px solid #dce7df; margin-bottom: 24px; }
   .sidebarTop { margin-bottom: 10px; }

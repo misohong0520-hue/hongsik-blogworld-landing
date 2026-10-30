@@ -3,6 +3,7 @@ import { ArrowDown, ArrowRight, Check, FileText, Search, Send, Video, Workflow }
 import { JourneyMotion } from "./journey-motion";
 import { FeatureVideoMotion } from "./feature-video-motion";
 import { FeatureVideo } from "./feature-video";
+import { SectionIntro } from "../overview/section-intro";
 import styles from "./feature-journey.module.css";
 
 const stages = [
@@ -36,7 +37,7 @@ export function FeatureJourney() {
     <JourneyMotion />
     <FeatureVideoMotion />
     <div className="landing-container">
-      <div className={styles.intro}><p className={styles.eyebrow}>FROM IDEAS TO CONTENT</p><h2 id="journey-title">찾은 주제에서,<br />콘텐츠의 다음 가능성까지.</h2><p>글감 발견부터 제작·발행·재활용까지.<br className={styles.desktopBreak} /> 지금 필요한 기능을 따라 살펴보세요.</p></div>
+      <div className={styles.intro}><SectionIntro id="journey-title" label="분석에서 바로 제작으로" title="분석한 그 자리에서," emphasis="콘텐츠 제작을 시작하세요." description="글감과 키워드를 고른 뒤, 글쓰기나 숏폼 제작으로 바로 이어가세요." closing="발견부터 제작·발행·관리까지, 아래 기능에서 확인하세요." /></div>
       <div className={styles.layout}>
         <aside data-journey-nav className={styles.sidebar} aria-label="주요 기능 탐색">
           <div className={styles.sidebarTop}><span className={styles.explore}>콘텐츠 운영의 연결</span><span className={styles.counter}><b data-journey-counter>01</b><span> / 05</span></span></div>
@@ -47,7 +48,7 @@ export function FeatureJourney() {
         <div className={styles.cards}>
           <article id="feature-dashboard" data-journey-card className={styles.card} aria-labelledby="dashboard-title">
             <div className={styles.cardHeading}><span className={styles.step}>01 · 대시보드</span><Search size={24} aria-hidden="true" /></div>
-            <h3 id="dashboard-title">오늘 쓸 주제를 찾았다면,<br />바로 제작으로 이어가세요.</h3>
+            <h3 id="dashboard-title"><span>오늘 쓸 주제를 찾았다면,</span><span>바로 제작으로 이어가세요.</span></h3>
             <p className={styles.lead}>무엇을 쓸지 고민하는 순간부터 함께합니다. 글감의 추천 이유를 살펴보고, 검색 수요와 연관 키워드를 비교해 주제를 골라보세요.</p>
             <figure className={styles.screenshot}><Image src="/images/dashboard-actual.png" width={1912} height={1033} alt="HongSik BlogWorld 대시보드의 글감 추천, 키워드 분석, 인기 키워드와 글쓰기 연결 화면" sizes="(max-width: 900px) 90vw, 660px" /><figcaption>실제 앱 화면 · AI 키워드 인사이트</figcaption></figure>
             <ul className={styles.points}><li><Check />추천 이유와 출처를 함께 보는 글감 추천</li><li><Check />검색 수요·연관 키워드 비교</li><li><Check />선택한 키워드로 글쓰기·숏폼 제작 화면 이동</li></ul>
@@ -56,7 +57,7 @@ export function FeatureJourney() {
           <article id="feature-writing" data-journey-card className={styles.card} aria-labelledby="writing-title">
             <span id="feature-sources" className={styles.anchorAlias} />
             <div className={styles.cardHeading}><span className={styles.step}>02 · AI 글쓰기</span><FileText size={24} aria-hidden="true" /></div>
-            <h3 id="writing-title">빈 화면 앞의 고민을,<br />검토할 수 있는 원고로.</h3>
+            <h3 id="writing-title"><span>빈 화면 앞의 고민을,</span><span>검토할 수 있는 원고로.</span></h3>
             <p className={styles.lead}>키워드나 참고할 원문 URL에서 시작하세요. 준비한 자료와 글쓰기 설정을 바탕으로 제목과 본문을 만들고, 이미지를 확인해 발행할 글을 준비합니다.</p>
             <FeatureVideo name="writing" title="글쓰기 기능 시연" />
             <ul className={styles.points}><li><Check />제목 후보와 글쓰기 방식 선택</li><li><Check />준비한 자료를 활용한 AI 원고 작성</li><li><Check />제목·본문·이미지 검토 후 발행 단계 연결</li></ul>
@@ -64,7 +65,7 @@ export function FeatureJourney() {
           </article>
           <article id="feature-visual" data-journey-card className={styles.card} aria-labelledby="visual-title">
             <div className={styles.cardHeading}><span className={styles.step}>03 · 카드뉴스·숏폼</span><Video size={24} aria-hidden="true" /></div>
-            <h3 id="visual-title">이야기를 전하는 방법을,<br />글 밖으로 넓혀보세요.</h3>
+            <h3 id="visual-title"><span>이야기를 전하는 방법을,</span><span>글 밖으로 넓혀보세요.</span></h3>
             <p className={styles.lead}>읽는 콘텐츠뿐 아니라 넘겨 보는 카드뉴스와 짧게 보는 숏폼도 제작하세요. 전달할 주제에 맞춰 콘텐츠 형식을 선택할 수 있습니다.</p>
             <FeatureVideo name="cardnews" title="카드뉴스 제작 시연" />
             <ul className={styles.points}><li><Check />주제에 맞는 카드뉴스 초안 제작</li><li><Check />문구와 디자인을 다듬는 편집</li><li><Check />대시보드 키워드에서 숏폼 제작으로 이동</li></ul>
@@ -72,7 +73,7 @@ export function FeatureJourney() {
           </article>
           <article id="feature-publishing" data-journey-card className={styles.card} aria-labelledby="publishing-title">
             <div className={styles.cardHeading}><span className={styles.step}>04 · 발행·리포스트</span><Send size={24} aria-hidden="true" /></div>
-            <h3 id="publishing-title">완성한 콘텐츠,<br />한 채널에서 끝내지 마세요.</h3>
+            <h3 id="publishing-title"><span>완성한 콘텐츠,</span><span>한 채널에서 끝내지 마세요.</span></h3>
             <p className={styles.lead}>블로그에 글을 발행하고, 이미 작성한 글은 리포스트로 다른 플랫폼에서도 활용하세요. 채널마다 같은 작업을 반복하는 부담을 줄여줍니다.</p>
             <FeatureVideo name="repost" title="리포스트 기능 시연" />
             <ul className={styles.points}><li><Check />발행 계정과 등록 방식 선택</li><li><Check />작성한 글을 다른 플랫폼에 맞춰 재구성</li><li><Check />발행 결과와 URL 확인</li></ul>
@@ -81,7 +82,7 @@ export function FeatureJourney() {
           <article id="feature-automation" data-journey-card className={styles.card} aria-labelledby="automation-title">
             <span id="feature-indexing" className={styles.anchorAlias} />
             <div className={styles.cardHeading}><span className={styles.step}>05 · 자동 실행·색인</span><Workflow size={24} aria-hidden="true" /></div>
-            <h3 id="automation-title">반복하는 글쓰기와<br />발행 이후의 작업까지.</h3>
+            <h3 id="automation-title"><span>반복하는 글쓰기와</span><span>발행 이후의 작업까지.</span></h3>
             <p className={styles.lead}>반복 운영에 필요한 자동 글쓰기 작업을 설정하고 진행 상황을 확인하세요. 발행한 글은 색인 요청 기능으로 검색엔진에 알리고 요청 결과를 관리할 수 있습니다.</p>
             <FeatureVideo name="indexing" title="색인 요청 시연" />
             <ul className={styles.points}><li><Check />반복할 글쓰기 작업 설정</li><li><Check />실행 단계와 처리 결과 확인</li><li><Check />발행한 글의 색인 요청·기록 관리</li></ul>

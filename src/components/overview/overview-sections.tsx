@@ -14,6 +14,7 @@ import {
   TimerReset,
   UserRound,
 } from "lucide-react";
+import { SectionIntro } from "./section-intro";
 import styles from "./overview-sections.module.css";
 
 const quickFeatures = [
@@ -30,7 +31,7 @@ export function QuickFeaturesSection() {
     <section id="overview" className={styles.overview} aria-labelledby="overview-heading">
       <div className="landing-container">
         <div className={styles.overviewHeader}>
-          <h2 id="overview-heading">블로그 운영에 필요한 기능을 한곳에.</h2>
+          <SectionIntro id="overview-heading" label="필요한 기능을 한눈에" title="글감부터 콘텐츠 확장까지." emphasis="내 작업에 맞게 골라 쓰세요." description="AI 글쓰기·카드뉴스·숏폼부터 발행과 색인까지, 지금 필요한 기능을 살펴보세요." compact />
           <a className={styles.textLink} href="#features">기능 자세히 보기 <ArrowDown size={16} aria-hidden="true" /></a>
         </div>
         <nav aria-label="주요 기능 바로가기">
@@ -73,11 +74,7 @@ export function OperatorProblemsSection() {
   return (
     <section id="audience" className={styles.problems} aria-labelledby="audience-heading">
       <div className={`landing-container ${styles.problemGrid}`}>
-        <div className={styles.problemIntro}>
-          <p className={styles.eyebrow}>콘텐츠 운영자의 익숙한 하루</p>
-          <h2 id="audience-heading"><span>찾고, 쓰고, 다시 올리고.</span><span>오늘도 반복하고 있나요?</span></h2>
-          <p className={styles.sectionDescription}>주제를 고르고 자료를 모은 뒤, 채널마다 다시 정리하는 일.<span className={styles.problemClosing}>흩어진 작업을 한 흐름으로 이어보세요.</span></p>
-        </div>
+        <SectionIntro id="audience-heading" label="콘텐츠 운영자의 익숙한 하루" title="찾고, 쓰고, 다시 올리고." emphasis="오늘도 반복하고 있나요?" description="주제를 고르고 자료를 모은 뒤, 채널마다 다시 정리하는 일." closing="흩어진 작업을 한 흐름으로 이어보세요." />
         <ul className={styles.problemList}>
           {problems.map(({ icon: Icon, title, body }, index) => (
             <li key={title}>
@@ -99,8 +96,7 @@ export function PlatformsSection() {
     <section id="platforms" className={styles.platforms} aria-labelledby="platforms-heading">
       <div className="landing-container">
         <div className={styles.platformHeader}>
-          <div><p className={styles.eyebrow}>내 채널에 맞는 콘텐츠 운영</p><h2 id="platforms-heading">발행할 곳도,<br />다시 활용할 곳도.</h2></div>
-          <p className={styles.sectionDescription}>블로그에 글을 발행하고, 리포스트로 다른 채널에서도 활용하세요. 사용할 플랫폼과 기능에 맞춰 연결합니다.</p>
+          <SectionIntro id="platforms-heading" label="콘텐츠 하나, 더 다양한 채널" title="정성 들여 만든 콘텐츠," emphasis="다른 채널에서도 활용하세요." description="블로그에 글을 발행하고, 리포스트로 Instagram과 Threads까지 활용 범위를 넓혀보세요." closing="채널마다 처음부터 다시 쓰는 수고를 덜어보세요." />
         </div>
         <div className={styles.channelGroups}>
           <div className={styles.channelGroup}>
@@ -135,7 +131,7 @@ export function CompactProcessSection() {
     <>
       <section id="guide" className={styles.guide} aria-labelledby="guide-heading">
         <div className={`landing-container ${styles.guideGrid}`}>
-          <div><p className={styles.eyebrow}>시작하기 전에</p><h2 id="guide-heading">내 운영 환경에 맞게<br />준비해 주세요.</h2><a className={styles.textLink} href="#contact">설정과 사용 문의 <ArrowRight size={17} aria-hidden="true" /></a></div>
+          <div className={styles.guideIntro}><SectionIntro id="guide-heading" label="내 환경에 맞춘 시작" title="앱·계정·AI를 준비하고," emphasis="내 방식으로 시작하세요." description="Windows 앱에서 운영할 계정과 사용할 AI를 연결하세요." closing="글쓰기 설정도 내 작업에 맞게 준비할 수 있어요." /><a className={styles.textLink} href="#contact">설정과 사용 문의 <ArrowRight size={17} aria-hidden="true" /></a></div>
           <ul className={styles.setupList}>
             {setup.map(({ icon: Icon, title, detail }) => <li key={title}><Icon size={23} strokeWidth={1.6} aria-hidden="true" /><div><h3>{title}</h3><p>{detail}</p></div><Check className={styles.setupCheck} size={18} aria-hidden="true" /></li>)}
           </ul>
@@ -143,7 +139,7 @@ export function CompactProcessSection() {
       </section>
       <section id="process" className={styles.process} aria-labelledby="process-heading">
         <div className="landing-container">
-          <div className={styles.processHeader}><p className={styles.eyebrow}>블로그 글쓰기의 기본 흐름</p><h2 id="process-heading">준비하고, 작성하고,<br className={styles.mobileBreak} /> 확인한 뒤 발행하세요.</h2></div>
+          <div className={styles.processHeader}><SectionIntro id="process-heading" label="처음부터 따라가는 기본 흐름" title="자료에서 원고로," emphasis="확인한 뒤 내 채널에 발행하세요." description="자료 준비 → AI 원고 작성 → 검토·발행. 각 단계에서 필요한 내용을 확인하며 진행하세요." closing="첫 글도 순서대로 시작할 수 있습니다." /></div>
           <ol className={styles.processList}>
             {process.map((step, index) => <li key={step.title}><span className={styles.stepNumber}>0{index + 1}</span><h3>{step.title}</h3><p>{step.body}</p><a className={styles.textLink} href={step.href}>{step.action}<ArrowRight size={16} aria-hidden="true" /></a></li>)}
           </ol>
