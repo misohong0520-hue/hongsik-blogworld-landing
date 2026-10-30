@@ -141,7 +141,7 @@ body { margin: 0; color: var(--landing-ink); }
 .landing-cta { background: var(--landing-mint); color: var(--landing-ink); box-shadow: none; }
 .landing-cta:hover { background: #43aa83; }
 .landing a:focus-visible { outline: 3px solid #16845c; outline-offset: 5px; }
-.landing :is(h1, h2, main)[tabindex="-1"]:focus-visible { outline: 3px solid #16845c; outline-offset: 6px; }
+.landing :is(h1, h2, h3, main)[tabindex="-1"]:focus-visible { outline: 3px solid #16845c; outline-offset: 6px; }
 .landing a { text-underline-offset: 4px; }
 .skip-link { position: absolute; z-index: 20; left: 24px; top: 0; padding: 12px 20px; background: #191a15; color: #fff; transform: translateY(-120%); }
 .skip-link:focus { transform: none; }

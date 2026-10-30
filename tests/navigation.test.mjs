@@ -77,7 +77,7 @@ beforeEach(() => {
   setHash("");
   document.body.innerHTML = `
     <div id="home"><h1>홈</h1><main id="main-content">
-      <section id="features"><h2>기능</h2></section>
+      <section id="features"><h2>기능</h2><article id="feature-sources"><h3>자료 준비</h3></article></section>
       <section id="guide"><h2>안내</h2></section>
       <section id="process"><h2>과정</h2></section>
       <section id="contact"><h2>문의</h2></section>
@@ -123,6 +123,16 @@ test("기존 tabindex는 보존하고 본문 바로가기는 main에 포커스�
   await changeHash("#main-content");
   assert.equal(heading.tabIndex, 0);
   assert.equal(document.activeElement, document.querySelector("main"));
+});
+
+test("기능 카드 링크는 카드의 h3 제목으로 키보드 포커스를 연결한다", async () => {
+  await mount(AnchorFocus);
+  await changeHash("#feature-sources");
+  const heading = document.querySelector("#feature-sources h3");
+  assert.equal(document.activeElement, heading);
+  assert.equal(heading.tabIndex, -1);
+  await changeHash("#home");
+  assert.equal(heading.hasAttribute("tabindex"), false);
 });
 
 test("동일한 해시를 다시 실행해도 포커스가 이동하고 기본 링크 동작은 취소하지 않는다", async () => {

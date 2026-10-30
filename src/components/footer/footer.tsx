@@ -4,14 +4,13 @@ import { site } from "@/lib/site";
 import styles from "./footer.module.css";
 
 const columns = [
-  { title: "안내", links: [["사용 대상", "#audience"], ["사용 과정", "#process"], ["문의", "#contact"], ["이메일 문의", site.supportHref]] },
-  { title: "블로그 운영 안내", links: [["사용 문의", "#contact"], ["사용 전 확인", "#contact"], ["Windows 앱", "#home"], ["개인·소규모 운영", "#audience"]] },
-  { title: "기능", links: [["자료", "#features"], ["원고 검토", "#guide"], ["AI 글 작성", "#features"], ["블로그 발행", "#process"]] },
+  { title: "서비스 안내", links: [["앱 소개", "#home"], ["이용 대상", "#audience"], ["사용 과정", "#process"]] },
+  { title: "주요 기능", links: [["자료 준비", "#feature-sources"], ["AI 원고 작성", "#feature-writing"], ["검토·발행", "#feature-publishing"]] },
 ] as const;
 
 export function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer id="footer" className={styles.footer}>
       <div className="landing-container">
         <div className={styles.grid}>
           <div className={styles.brandColumn}>
@@ -36,11 +35,6 @@ export function Footer() {
         </div>
         <div className={styles.bottom}>
           <p>© HongSik BlogWorld · blogworld.hongsik.blog</p>
-          <div className={styles.smallLinks}>
-            <a href="#home">Windows 앱</a>
-            <Image className={styles.dot} src="/figma/844d2.svg" width={4} height={4} alt="" />
-            <a href={site.supportHref}>이메일 문의</a>
-          </div>
         </div>
       </div>
     </footer>

@@ -16,7 +16,7 @@ export function AnchorFocus() {
       }
       const target = id ? document.getElementById(id) : null;
       if (!target) return;
-      const heading = target.matches("main") ? target : target.querySelector<HTMLElement>("h1, h2");
+      const heading = target.matches("main") ? target : target.querySelector<HTMLElement>("h1, h2, h3");
       const focusTarget = heading ?? target;
       restoreFocusTarget();
       const originalTabIndex = focusTarget.getAttribute("tabindex");
