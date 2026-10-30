@@ -34,7 +34,10 @@ PY
 )
 find "$release" -type d -exec chmod 755 {} +
 find "$release" -type f -exec chmod 644 {} +
-previous=$(readlink -f "$base/current" || true)
+previous=""
+if [[ -L $base/current && -d $base/current ]]; then
+    previous=$(readlink -f "$base/current")
+fi
 if [[ -n $previous && $previous != "$release" ]]; then
     ln -sfn "$previous" "$base/previous.next"
     mv -Tf "$base/previous.next" "$base/previous"
