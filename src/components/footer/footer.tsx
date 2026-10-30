@@ -5,7 +5,7 @@ import styles from "./footer.module.css";
 
 const columns = [
   { title: "서비스 안내", links: [["앱 소개", "#home"], ["이용 대상", "#audience"], ["사용 과정", "#process"]] },
-  { title: "주요 기능", links: [["자료 준비", "#feature-sources"], ["AI 원고 작성", "#feature-writing"], ["검토·발행", "#feature-publishing"]] },
+  { title: "주요 기능", links: [["글감·키워드 분석", "#feature-dashboard"], ["AI 글쓰기", "#feature-writing"], ["카드뉴스·숏폼", "#feature-visual"], ["발행·리포스트", "#feature-publishing"], ["자동 실행·색인", "#feature-automation"]] },
 ] as const;
 
 export function Footer() {
