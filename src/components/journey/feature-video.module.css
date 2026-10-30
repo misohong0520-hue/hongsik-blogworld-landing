@@ -1,0 +1,5 @@
+.figure { margin: 28px 0; border: 1px solid #dce7df; border-radius: 12px; overflow: hidden; background: #edf4ef; }
+.figure video { display: block; width: 100%; height: auto; aspect-ratio: 860 / 484; object-fit: contain; background: #edf4ef; }
+.figure figcaption { padding: 11px 14px; border-top: 1px solid #e0e9e3; background: #f7faf8; color: #626d67; text-align: center; font-size: 11px; line-height: 1.6; }
+.figure video:focus-visible { outline: 3px solid #16845c; outline-offset: -3px; }
+@media (max-width: 480px) { .figure { margin-block: 24px; border-radius: 9px; } }

@@ -13,3 +13,7 @@ Noto Sans KR and Inter are served with their complete SIL OFL 1.1 notices in `pu
 The H logo and product image were supplied by the project owner. This notice does not license the owner's app, brand or independently authored source code under a third-party design license.
 
 The deployed site includes the same attribution and font-license locations in `public/third-party-notices.txt`; its location is declared in the HTML metadata without changing the approved footer layout.
+
+The YouTube, Instagram and Threads SVG paths in the compact contact controls are from [Simple Icons](https://github.com/simple-icons/simple-icons), provided under CC0 1.0. The full notice is retained at `public/licenses/SimpleIcons-CC0.txt`. Brand marks identify the contact channels; their trademarks remain with their respective owners.
+
+The four feature demonstration videos are the original MP4 URLs supplied by the project owner under `https://blogfactory.kr/detail/blog-factory/features/` (writing, cardnews, repost and indexing). They are embedded directly without modifying their footage. Their rights remain with the original owner; this notice does not relicense the videos as part of the site's code.
