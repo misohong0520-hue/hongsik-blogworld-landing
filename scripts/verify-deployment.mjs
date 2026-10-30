@@ -26,7 +26,7 @@ assert.equal((await release.json()).sourceCommit, expected);
 const files = fs.readFileSync("out/release-manifest.sha256", "utf8").trim().split("\n").map((line) => line.slice(66));
 let next = 0;
 let checked = 0;
-const types = { ".css": "text/css", ".js": "application/javascript", ".png": "image/png", ".svg": "image/svg+xml", ".woff2": "font/woff2", ".html": "text/html" };
+const types = { ".css": "text/css", ".js": "application/javascript", ".png": "image/png", ".webp": "image/webp", ".svg": "image/svg+xml", ".woff2": "font/woff2", ".html": "text/html" };
 await Promise.all(Array.from({ length: 4 }, async () => {
   while (next < files.length) {
     const file = files[next++];

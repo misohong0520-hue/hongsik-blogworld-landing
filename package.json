@@ -8,6 +8,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "lint": "eslint",
     "test:interactions": "node --test --test-timeout=15000 tests/navigation.test.mjs",
+    "prepare:backgrounds": "node scripts/prepare-backgrounds.mjs",
     "package:release": "node scripts/package-release.mjs"
   },
   "dependencies": {

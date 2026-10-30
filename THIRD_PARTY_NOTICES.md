@@ -6,6 +6,8 @@ The design reference is [SaaS Landing Pages](https://www.figma.com/community/fil
 
 The adaptation changes branding, copy, hero imagery, responsive implementation, text contrast and footer structure. Template-derived feature images and workspace photo are mapped to original nodes in `design/stage3-assets.json`. The archived design exports are review/history artifacts, not runtime page screenshots.
 
+The decorative blur SVGs from that template also have pre-rendered, reduced-resolution WebP derivatives in `public/images/glows/` for rendering performance. Their source mapping and asset comparison are recorded in `design/background-optimization.json`; the original SVGs are retained.
+
 Noto Sans KR and Inter are served with their complete SIL OFL 1.1 notices in `public/licenses/`. The notices were obtained from the Google Fonts source repository. The Lucide-derived arrow's ISC notice is included in `public/images/process-arrow-down.LICENSE.txt`.
 
 The H logo and product image were supplied by the project owner. This notice does not license the owner's app, brand or independently authored source code under a third-party design license.

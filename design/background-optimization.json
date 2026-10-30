@@ -1,0 +1,150 @@
+{
+  "scope": "Offline asset comparison with Sharp, not browser pixels or scroll FPS",
+  "format": "Lossless WebP at reduced resolution; CSS display sizes and positions unchanged",
+  "assets": [
+    {
+      "source": "public/figma/205f7.svg",
+      "output": "public/images/glows/205f7.webp",
+      "sourceSha256": "c3d36cebb3699a14e6f6095b0c6d7ca00fe519c638a53bfc7a231f37ce774747",
+      "outputSha256": "73fff7d1df713594d381ff68bf846537a4976284c1ffb0e805e48b4125ae46ce",
+      "sourceWidth": 2634,
+      "sourceHeight": 2634,
+      "width": 512,
+      "height": 512,
+      "bytes": 46098,
+      "decodedPixelReductionPercent": 96.22,
+      "comparisons": [
+        {
+          "background": "#ffffff",
+          "maxChannelDifference": 4,
+          "meanChannelDifference": 0.2186
+        },
+        {
+          "background": "#54bd95",
+          "maxChannelDifference": 3,
+          "meanChannelDifference": 0.2382
+        }
+      ]
+    },
+    {
+      "source": "public/figma/c5a56.svg",
+      "output": "public/images/glows/c5a56.webp",
+      "sourceSha256": "e759dee3c127c10eab787b43e364e6ed9190e0a7dfc9df7eb5b237e5e89037b7",
+      "outputSha256": "4ef73092984057f6118e90ed1131031261a50fc1f7950abffd065a5b9547928c",
+      "sourceWidth": 2634,
+      "sourceHeight": 2634,
+      "width": 512,
+      "height": 512,
+      "bytes": 49498,
+      "decodedPixelReductionPercent": 96.22,
+      "comparisons": [
+        {
+          "background": "#ffffff",
+          "maxChannelDifference": 4,
+          "meanChannelDifference": 0.2298
+        },
+        {
+          "background": "#54bd95",
+          "maxChannelDifference": 3,
+          "meanChannelDifference": 0.2562
+        }
+      ]
+    },
+    {
+      "source": "public/figma/c683b.svg",
+      "output": "public/images/glows/c683b.webp",
+      "sourceSha256": "9c027088ca6e097b5624416d8910d4713313051d89110616e3b4e106a4183796",
+      "outputSha256": "1e5bbca94b1642152f4340131cbf6769f166496fe9b84fcde1b16e8fac0c135a",
+      "sourceWidth": 2634,
+      "sourceHeight": 2634,
+      "width": 512,
+      "height": 512,
+      "bytes": 12964,
+      "decodedPixelReductionPercent": 96.22,
+      "comparisons": [
+        {
+          "background": "#ffffff",
+          "maxChannelDifference": 1,
+          "meanChannelDifference": 0.0303
+        },
+        {
+          "background": "#54bd95",
+          "maxChannelDifference": 2,
+          "meanChannelDifference": 0.0319
+        }
+      ]
+    },
+    {
+      "source": "public/figma/08cdd.svg",
+      "output": "public/images/glows/08cdd.webp",
+      "sourceSha256": "b4fc7b2f6acce2765d979a231ae4a7dfce06612263bfcb8d4793bd59874ed13d",
+      "outputSha256": "bcbb18215fd01fbb1ca1594daf97dd9fc12fa161daa61b0d14c9365f57b7e616",
+      "sourceWidth": 2634,
+      "sourceHeight": 2634,
+      "width": 512,
+      "height": 512,
+      "bytes": 25752,
+      "decodedPixelReductionPercent": 96.22,
+      "comparisons": [
+        {
+          "background": "#ffffff",
+          "maxChannelDifference": 4,
+          "meanChannelDifference": 0.1722
+        },
+        {
+          "background": "#54bd95",
+          "maxChannelDifference": 3,
+          "meanChannelDifference": 0.1885
+        }
+      ]
+    },
+    {
+      "source": "public/figma/6190a.svg",
+      "output": "public/images/glows/6190a.webp",
+      "sourceSha256": "09689d291638bd6bf8a8e0024b98219705b881de1d59f5e3d6f7b42415222583",
+      "outputSha256": "af9b1052c6d492ed871d78e24f31e21205fa037c584a8452a8c5eb67096172ed",
+      "sourceWidth": 1620,
+      "sourceHeight": 1620,
+      "width": 512,
+      "height": 512,
+      "bytes": 43804,
+      "decodedPixelReductionPercent": 90.01,
+      "comparisons": [
+        {
+          "background": "#ffffff",
+          "maxChannelDifference": 4,
+          "meanChannelDifference": 0.337
+        },
+        {
+          "background": "#54bd95",
+          "maxChannelDifference": 3,
+          "meanChannelDifference": 0.4259
+        }
+      ]
+    },
+    {
+      "source": "public/figma/50ba5.svg",
+      "output": "public/images/glows/50ba5.webp",
+      "sourceSha256": "a9f47a91f3a92cbe226a8106d605866fae2f8abfcab59a2ba896021e5a93e662",
+      "outputSha256": "213569a48237134d427325987aac5bcafc46497dc9787035f08d81609ea09234",
+      "sourceWidth": 1620,
+      "sourceHeight": 1620,
+      "width": 512,
+      "height": 512,
+      "bytes": 11842,
+      "decodedPixelReductionPercent": 90.01,
+      "comparisons": [
+        {
+          "background": "#ffffff",
+          "maxChannelDifference": 1,
+          "meanChannelDifference": 0.0516
+        },
+        {
+          "background": "#54bd95",
+          "maxChannelDifference": 1,
+          "meanChannelDifference": 0.0224
+        }
+      ]
+    }
+  ]
+}

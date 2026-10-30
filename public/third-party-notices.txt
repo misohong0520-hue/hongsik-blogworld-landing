@@ -17,6 +17,10 @@ selected template; their source nodes are recorded in design/stage3-assets.json
 in the source repository. Original photographs' separate authorship was not
 available in the template metadata; no photographer name is invented here.
 
+Decorative blur SVGs from the same template have pre-rendered WebP derivatives
+in /images/glows/ for rendering performance. The source mapping is recorded in
+design/background-optimization.json in the source repository.
+
 Fonts: Noto Sans KR and Inter, SIL Open Font License 1.1.
 The copyright notices and full licenses are provided at:
 /licenses/NotoSansKR-OFL.txt
