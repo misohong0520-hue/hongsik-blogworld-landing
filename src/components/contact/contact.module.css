@@ -6,7 +6,7 @@
 .quote { display: block; margin: 12px 0 0 5px; }
 .usageLabel { margin: 170px 0 0 5px; color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; }
 .card { display: flex; flex-direction: column; min-width: 0; padding: 40px 86px 65px; background: #222938; border-radius: 20px; }
-.brandMark { width: 72.059px; height: 86px; object-fit: contain; align-self: center; }
+.mailIcon { display: grid; place-items: center; width: 64px; height: 64px; align-self: center; background: #f1efe9; border: 1px solid #d5d1c8; color: #191a15; }
 .card h3 { margin: 10px 0 0; color: #fff; font-size: 30px; font-weight: 500; line-height: 36px; text-align: center; }
 .recipient { margin: 28px 0 0; }
 .recipient dt { color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 24px; }
@@ -23,7 +23,7 @@
   .quote { display: none; }
   .usageLabel { margin: 0; font-size: 16px; line-height: 26px; }
   .card { width: 100%; padding: 28px 24px; gap: 20px; }
-  .brandMark { width: 58px; height: 69.221px; }
+  .mailIcon { width: 58px; height: 58px; }
   .card h3 { margin: 0; font-size: 26px; line-height: 36px; }
   .recipient, .help { margin: 0; }
   .emailAction { min-height: 59px; height: auto; margin: 0; padding: 16px 0; font-size: 18px; line-height: 27px; }

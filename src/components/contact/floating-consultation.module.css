@@ -1,0 +1,8 @@
+.floating { position: fixed; z-index: 30; right: calc(28px + env(safe-area-inset-right, 0px)); bottom: calc(26px + env(safe-area-inset-bottom, 0px)); display: inline-flex; align-items: center; justify-content: center; gap: 13px; min-height: 66px; padding: 18px 27px; border: 1px solid #3f3b31; border-radius: 999px; background: #1d1c17; color: #fffdf7; box-shadow: 0 7px 24px #00000022; font-size: 18px; line-height: 1.4; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.floating > svg { flex: none; color: #cca36c; }
+.floating:hover { background: #302e25; }
+.floating:focus-visible { outline: 3px solid #54bd95; outline-offset: 5px; }
+@media (max-width: 600px) {
+  .floating { right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); min-height: 54px; padding: 13px 21px; gap: 10px; font-size: 15px; }
+  .floating > svg { width: 23px; height: 23px; }
+}

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Mail } from "lucide-react";
 import { Brand } from "@/components/brand/brand";
 import { site } from "@/lib/site";
 import styles from "./footer.module.css";
@@ -17,11 +17,8 @@ export function Footer() {
             <Brand />
             <p className={styles.tagline}>키워드부터 블로그 발행까지.</p>
             <a className={styles.emailLink} href={site.supportHref}>
-              <span>이메일 문의</span>
-              <span className={styles.arrow} aria-hidden="true">
-                <Image src="/figma/51020.svg" width={46} height={46} alt="" />
-                <Image src="/figma/224e8.svg" width={24} height={24} alt="" />
-              </span>
+              <span className={styles.emailIcon}><Mail size={24} strokeWidth={1.8} aria-hidden="true" /></span>
+              <span className={styles.emailText}><span>이메일 문의</span><span className={styles.emailAddress}>{site.supportEmail}</span></span>
             </a>
           </div>
           <nav aria-label="하단 메뉴" className={styles.columns}>

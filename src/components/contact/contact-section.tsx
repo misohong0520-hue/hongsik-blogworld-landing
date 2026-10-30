@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Mail } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { site } from "@/lib/site";
 import styles from "./contact.module.css";
@@ -18,7 +19,7 @@ export function ContactSection() {
           <p className={styles.usageLabel}>사용 안내</p>
         </div>
         <div className={styles.card} aria-labelledby="email-title">
-          <Image className={styles.brandMark} src="/brand/icon.png" width={72} height={86} alt="" />
+          <span className={styles.mailIcon}><Mail size={29} strokeWidth={1.7} aria-hidden="true" /></span>
           <h3 id="email-title">이메일 문의</h3>
           <dl className={styles.recipient}>
             <dt>받는 주소</dt>
@@ -27,7 +28,7 @@ export function ContactSection() {
           <p id="email-help" className={styles.help}>
             아래 버튼을 누르면 기본 메일 앱에서<br />새 메일을 작성할 수 있어요.
           </p>
-          <a className={`${buttonVariants()} ${styles.emailAction}`} href={site.supportHref} aria-describedby="email-help">메일 앱 열기</a>
+          <a className={`${buttonVariants()} ${styles.emailAction}`} href={site.supportHref} aria-describedby="email-help"><Mail size={19} aria-hidden="true" />이메일 보내기</a>
           <p className={styles.note}>메일 앱이 열리지 않으면 위 주소를 복사해 문의해 주세요.</p>
         </div>
       </div>
