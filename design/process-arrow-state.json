@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-30",
+  "baseCommit": "2268b9d",
+  "asset": "public/images/process-arrow-down.svg",
+  "pass": true,
+  "createdNodeIds": [
+    "135:8",
+    "135:9",
+    "135:10",
+    "135:11",
+    "135:12",
+    "135:13",
+    "135:14",
+    "135:15"
+  ],
+  "mutatedNodeIds": [
+    "115:19",
+    "115:20",
+    "123:21",
+    "123:22"
+  ],
+  "slots": [
+    {
+      "oldIconId": "115:20",
+      "arrowId": "135:8",
+      "parentId": "115:19",
+      "x": 0,
+      "y": 0,
+      "width": 40,
+      "height": 40,
+      "oldOpacity": 0
+    },
+    {
+      "oldIconId": "123:22",
+      "arrowId": "135:12",
+      "parentId": "123:21",
+      "x": 0,
+      "y": 0,
+      "width": 40,
+      "height": 40,
+      "oldOpacity": 0
+    }
+  ],
+  "beforeFingerprints": [
+    "2a243572",
+    "6d78e8d2"
+  ],
+  "afterFingerprints": [
+    "2a243572",
+    "6d78e8d2"
+  ],
+  "fonts": [
+    {
+      "family": "Noto Sans KR",
+      "style": "Medium",
+      "variationSettings": {
+        "wght": 500
+      }
+    }
+  ]
+}

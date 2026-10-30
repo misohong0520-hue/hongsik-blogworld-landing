@@ -16,6 +16,7 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 - 메인 이미지: 사용자 제공 실제 앱 화면을 담은 노트북 이미지로 PC·모바일 Figma 교체 완료. [교체 기록](docs/hero-product-image.md). 웹 화면 적용은 3단계에서 진행합니다.
 - 하단 사용 안내의 반복 로고·재생 버튼 행 제거 완료. [수정 기록](docs/usage-marks-removal.md). 모바일의 해당 여백도 줄였습니다.
 - 하단의 요청한 안내 문구 3줄을 PC·모바일에서 숨겼습니다. [변경 기록](docs/usage-notice-hidden.md). 상단 메뉴의 섹션 연결 계획은 [구현 계획](docs/implementation-plan.md)에 있습니다.
+- ‘과정 보기’의 재생 아이콘을 아래쪽 화살표로 교체했습니다. [교체 기록](docs/process-arrow.md).
 
 ## 기술과 실행
 

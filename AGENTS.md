@@ -30,6 +30,7 @@
 - 사용자가 승인한 메인 이미지는 `public/images/hero-product.png`다. PC·모바일의 기존 인물/민트 배경/주변 카드 전체를 이 한 장으로 교체했으며, `design/hero-product-state.json`, `design/hero-product-audit.json`, `docs/hero-product-image.md`를 우선 적용한다. 나머지 레이아웃은 유지한다. 기존 그래픽 그룹은 복구 및 크기 보존을 위해 opacity 0으로 남아 있으므로 웹에 함께 렌더링하지 않는다.
 - 사용 안내 아래 반복 H 로고 4개와 재생 버튼 행은 사용자 승인으로 제거했다. `docs/usage-marks-removal.md`, `design/usage-marks-removal.json`을 따른다. 사용 안내 문구와 문의 카드는 유지하고, 모바일 행의 98px 공간은 접는다. 이전 원본 감사·메인 이미지 교체 감사는 해당 변경 전 이력이다.
 - 사용자 요청으로 ‘AI 원고는 발행 전에…’로 시작하는 3줄 문구(원본 `0:387`, PC `115:386`, 모바일 `123:480`)를 숨겼다. `docs/usage-notice-hidden.md`, `design/usage-notice-hidden.json`을 따른다. 웹에서도 해당 문구를 렌더링하지 않는다. 상단 메뉴는 한 페이지 내 섹션 이동 계획이며 이번 요청에서 메뉴 자체는 바꾸지 않았다.
+- ‘과정 보기’의 재생 아이콘은 원형 아래쪽 화살표로 교체했다. `public/images/process-arrow-down.svg`, `design/process-arrow-state.json`, `docs/process-arrow.md`를 따른다. 버튼 문구·크기·위치를 유지하며 실제 섹션 이동은 4단계에서 연결한다.
 - Figma MCP 스킬을 따라 디자인 정보·스크린샷을 읽고, 원본 템플릿을 보존하며 브랜드 시안을 구분한다.
 - 생성된 절대 좌표 코드를 그대로 제품에 사용하지 않고 반응형 구조와 공통 컴포넌트로 구현한다.
 - 가격·평점·회사 로고·인물·금융 문구는 템플릿의 예시이며 앱의 실제 정보가 아니다.

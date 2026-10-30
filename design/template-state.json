@@ -2184,5 +2184,31 @@
     ],
     "evidence": "design/usage-notice-hidden.json",
     "mobileHeight": 8780.66796875
+  },
+  "processArrow": {
+    "verified": true,
+    "stateFile": "design/process-arrow-state.json",
+    "slots": [
+      {
+        "oldIconId": "115:20",
+        "arrowId": "135:8",
+        "parentId": "115:19",
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40,
+        "oldOpacity": 0
+      },
+      {
+        "oldIconId": "123:22",
+        "arrowId": "135:12",
+        "parentId": "123:21",
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40,
+        "oldOpacity": 0
+      }
+    ]
   }
 }

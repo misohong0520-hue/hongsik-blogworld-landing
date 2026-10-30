@@ -1,5 +1,7 @@
 # Figma 디자인 원본과 인계 자료
 
+‘과정 보기’ 아이콘은 원형 아래쪽 화살표다. `process-arrow-state.json`, [교체 기록](../docs/process-arrow.md)을 따른다. 이전 재생 아이콘 인스턴스는 opacity 0으로 남아 있으므로 웹에서 중복 표시하지 않는다.
+
 최신 표시 예외: 원본 `0:387`의 안내 문구 3줄은 숨겼다. `usage-notice-hidden.json`, [기록](../docs/usage-notice-hidden.md)을 따른다. 최신 모바일 출력은 390×8781이다.
 
 사용 안내 아래 반복 로고 4개·재생 버튼은 PC·모바일에서 제거됐다. 최신 변경은 `usage-marks-removal.json`과 [수정 기록](../docs/usage-marks-removal.md)을 따른다. 이전 감사는 각 변경 직전의 이력이다.
