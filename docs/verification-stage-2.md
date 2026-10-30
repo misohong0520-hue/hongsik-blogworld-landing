@@ -1,5 +1,7 @@
 # 2단계 검증 기록
 
+> 이전 초안의 구조·글꼴 검수 기록이다. 원본 템플릿 충실도를 검증하지 않아 ‘2단계 완료’ 판정은 철회됐다. 최종 검증은 [원본 정렬 수정 검증](verification-template-correction.md)을 따른다.
+
 기준일: 2026-10-30 (Asia/Seoul). 기반 커밋 `49bb5df`, 작업 브랜치 `codex/landing-design`.
 
 ## 실제 완료한 작업

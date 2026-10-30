@@ -1,5 +1,7 @@
 # Figma 디자인 원본과 인계 자료
 
+**현재 구현 기준은 원본 직접 복제 시안이다.** [최종 PC](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=115-6) · [최종 모바일](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=123-5). `template-state.json`, `template-copy.json`, `figma-template-clone.js`, `figma-template-apply.js`, `figma-template-audit.js`, `figma-template-mobile.js`와 [수정 기록](../docs/template-correction.md)을 따른다. 비교용 PNG는 `desktop-template.png`와 `mobile-template.png`다. 아래 기존 `104:*` 시안과 `figma-state.json`은 폐기 초안의 이력이며 실제 웹 구현에 사용하지 않는다.
+
 - 파일: `h2yyAh96bomjU0WmO6NRiw`
 - 브랜드 페이지: `104:2` (`HongSik · Landing / Stage 2`)
 - [PC 1440px](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=104-45)

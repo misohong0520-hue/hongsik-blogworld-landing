@@ -1,0 +1,1296 @@
+{
+  "pass": true,
+  "sourceId": "0:7",
+  "desktopId": "115:6",
+  "sourceNodeCount": 581,
+  "cloneNodeCount": 613,
+  "mappingCount": 581,
+  "offendingNodeCount": 0,
+  "offendingFieldCount": 0,
+  "offendingFields": [],
+  "permittedExceptions": [
+    {
+      "sourceId": "0:556",
+      "cloneId": "115:555",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:556",
+      "cloneId": "115:555",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:556",
+      "cloneId": "115:555",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:555",
+      "cloneId": "115:554",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:552",
+      "cloneId": "115:551",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:552",
+      "cloneId": "115:551",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:552",
+      "cloneId": "115:551",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:551",
+      "cloneId": "115:550",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:542",
+      "cloneId": "115:541",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:541",
+      "cloneId": "115:540",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:497",
+      "cloneId": "115:496",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:497",
+      "cloneId": "115:496",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:497",
+      "cloneId": "115:496",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:496",
+      "cloneId": "115:495",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:478",
+      "cloneId": "115:477",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:477",
+      "cloneId": "115:476",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:459",
+      "cloneId": "115:458",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:456",
+      "cloneId": "115:455",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:456",
+      "cloneId": "115:455",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:456",
+      "cloneId": "115:455",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:455",
+      "cloneId": "115:454",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:452",
+      "cloneId": "115:451",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:450",
+      "cloneId": "115:449",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:448",
+      "cloneId": "115:447",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:447",
+      "cloneId": "115:446",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:446",
+      "cloneId": "115:445",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:445",
+      "cloneId": "115:444",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:444",
+      "cloneId": "115:443",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:442",
+      "cloneId": "115:441",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:441",
+      "cloneId": "115:440",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:440",
+      "cloneId": "115:439",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:439",
+      "cloneId": "115:438",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:438",
+      "cloneId": "115:437",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:436",
+      "cloneId": "115:435",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:435",
+      "cloneId": "115:434",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:434",
+      "cloneId": "115:433",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:433",
+      "cloneId": "115:432",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:432",
+      "cloneId": "115:431",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:429",
+      "cloneId": "115:428",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:422",
+      "cloneId": "115:421",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:420",
+      "cloneId": "115:419",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:419",
+      "cloneId": "115:418",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:417",
+      "cloneId": "115:416",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:415",
+      "cloneId": "115:414",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:413",
+      "cloneId": "115:412",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:410",
+      "cloneId": "115:409",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:408",
+      "cloneId": "115:407",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:408",
+      "cloneId": "115:407",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:408",
+      "cloneId": "115:407",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:405",
+      "cloneId": "115:404",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:403",
+      "cloneId": "115:402",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:395",
+      "cloneId": "115:394",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:394",
+      "cloneId": "115:393",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:393",
+      "cloneId": "115:392",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:392",
+      "cloneId": "115:391",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:388",
+      "cloneId": "115:387",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:387",
+      "cloneId": "115:386",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:385",
+      "cloneId": "115:384",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:385",
+      "cloneId": "115:384",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:385",
+      "cloneId": "115:384",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:384",
+      "cloneId": "115:383",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:381",
+      "cloneId": "115:380",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:378",
+      "cloneId": "115:377",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:376",
+      "cloneId": "115:375",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:375",
+      "cloneId": "115:374",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:374",
+      "cloneId": "115:373",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:373",
+      "cloneId": "115:372",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:372",
+      "cloneId": "115:371",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:370",
+      "cloneId": "115:369",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:368",
+      "cloneId": "115:367",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:368",
+      "cloneId": "115:367",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:368",
+      "cloneId": "115:367",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:365",
+      "cloneId": "115:364",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:365",
+      "cloneId": "115:364",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:365",
+      "cloneId": "115:364",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:362",
+      "cloneId": "115:361",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:357",
+      "cloneId": "115:356",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:352",
+      "cloneId": "115:351",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:347",
+      "cloneId": "115:346",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:342",
+      "cloneId": "115:341",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:332",
+      "cloneId": "115:331",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:332",
+      "cloneId": "115:331",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:332",
+      "cloneId": "115:331",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:331",
+      "cloneId": "115:330",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:330",
+      "cloneId": "115:329",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:329",
+      "cloneId": "115:328",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:324",
+      "cloneId": "115:323",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:324",
+      "cloneId": "115:323",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:324",
+      "cloneId": "115:323",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:321",
+      "cloneId": "115:320",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:316",
+      "cloneId": "115:315",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:311",
+      "cloneId": "115:310",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:306",
+      "cloneId": "115:305",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:301",
+      "cloneId": "115:300",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:292",
+      "cloneId": "115:291",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:292",
+      "cloneId": "115:291",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:292",
+      "cloneId": "115:291",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:291",
+      "cloneId": "115:290",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:290",
+      "cloneId": "115:289",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:289",
+      "cloneId": "115:288",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:284",
+      "cloneId": "115:283",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:284",
+      "cloneId": "115:283",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:284",
+      "cloneId": "115:283",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:281",
+      "cloneId": "115:280",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:276",
+      "cloneId": "115:275",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:271",
+      "cloneId": "115:270",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:266",
+      "cloneId": "115:265",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:261",
+      "cloneId": "115:260",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:252",
+      "cloneId": "115:251",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:252",
+      "cloneId": "115:251",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:252",
+      "cloneId": "115:251",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:251",
+      "cloneId": "115:250",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:250",
+      "cloneId": "115:249",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:249",
+      "cloneId": "115:248",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:242",
+      "cloneId": "115:241",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:241",
+      "cloneId": "115:240",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:237",
+      "cloneId": "115:236",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:236",
+      "cloneId": "115:235",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:230",
+      "cloneId": "115:229",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:222",
+      "cloneId": "115:221",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:221",
+      "cloneId": "115:220",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:212",
+      "cloneId": "115:211",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:211",
+      "cloneId": "115:210",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:209",
+      "cloneId": "115:208",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:205",
+      "cloneId": "115:204",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:200",
+      "cloneId": "115:199",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:195",
+      "cloneId": "115:194",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:190",
+      "cloneId": "115:189",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:185",
+      "cloneId": "115:184",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:179",
+      "cloneId": "115:178",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:169",
+      "cloneId": "115:168",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:169",
+      "cloneId": "115:168",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:169",
+      "cloneId": "115:168",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:168",
+      "cloneId": "115:167",
+      "field": "strokes"
+    },
+    {
+      "sourceId": "0:167",
+      "cloneId": "115:166",
+      "field": "strokes"
+    },
+    {
+      "sourceId": "0:165",
+      "cloneId": "115:164",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:163",
+      "cloneId": "115:162",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:163",
+      "cloneId": "115:162",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:163",
+      "cloneId": "115:162",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:156",
+      "cloneId": "115:155",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:162",
+      "cloneId": "115:161",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:161",
+      "cloneId": "115:160",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:160",
+      "cloneId": "115:159",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:159",
+      "cloneId": "115:158",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:158",
+      "cloneId": "115:157",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:157",
+      "cloneId": "115:156",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:154",
+      "cloneId": "115:153",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:153",
+      "cloneId": "115:152",
+      "field": "strokes"
+    },
+    {
+      "sourceId": "0:152",
+      "cloneId": "115:151",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:151",
+      "cloneId": "115:150",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:150",
+      "cloneId": "115:149",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:149",
+      "cloneId": "115:148",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:148",
+      "cloneId": "115:147",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:146",
+      "cloneId": "115:145",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:146",
+      "cloneId": "115:145",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:146",
+      "cloneId": "115:145",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:144",
+      "cloneId": "115:143",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:143",
+      "cloneId": "115:142",
+      "field": "strokes"
+    },
+    {
+      "sourceId": "0:142",
+      "cloneId": "115:141",
+      "field": "strokes"
+    },
+    {
+      "sourceId": "0:141",
+      "cloneId": "115:140",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:140",
+      "cloneId": "115:139",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:140",
+      "cloneId": "115:139",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:140",
+      "cloneId": "115:139",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:138",
+      "cloneId": "115:137",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:137",
+      "cloneId": "115:136",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:136",
+      "cloneId": "115:135",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:134",
+      "cloneId": "115:133",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:132",
+      "cloneId": "115:131",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:132",
+      "cloneId": "115:131",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:132",
+      "cloneId": "115:131",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:128",
+      "cloneId": "115:127",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:126",
+      "cloneId": "115:125",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:125",
+      "cloneId": "115:124",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:123",
+      "cloneId": "115:122",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:122",
+      "cloneId": "115:121",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:121",
+      "cloneId": "115:120",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:120",
+      "cloneId": "115:119",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:119",
+      "cloneId": "115:118",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:115",
+      "cloneId": "115:114",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:114",
+      "cloneId": "115:113",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:112",
+      "cloneId": "115:111",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:111",
+      "cloneId": "115:110",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:110",
+      "cloneId": "115:109",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:109",
+      "cloneId": "115:108",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:108",
+      "cloneId": "115:107",
+      "field": "fills"
+    },
+    {
+      "sourceId": "0:104",
+      "cloneId": "115:103",
+      "field": "fontWeight"
+    },
+    {
+      "sourceId": "0:104",
+      "cloneId": "115:103",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:104",
+      "cloneId": "115:103",
+      "field": "fontName"
+    },
+    {
+      "sourceId": "0:103",
+      "cloneId": "115:102",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:101",
+      "cloneId": "115:100",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:97",
+      "cloneId": "115:96",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:95",
+      "cloneId": "115:94",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:90",
+      "cloneId": "115:89",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:88",
+      "cloneId": "115:87",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:84",
+      "cloneId": "115:83",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:73",
+      "cloneId": "115:72",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:72",
+      "cloneId": "115:71",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:66",
+      "cloneId": "115:65",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:64",
+      "cloneId": "115:63",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:58",
+      "cloneId": "115:57",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:23",
+      "cloneId": "115:22",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:22",
+      "cloneId": "115:21",
+      "field": "layoutSizingHorizontal"
+    },
+    {
+      "sourceId": "0:22",
+      "cloneId": "115:21",
+      "field": "layoutSizingVertical"
+    },
+    {
+      "sourceId": "0:22",
+      "cloneId": "115:21",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:19",
+      "cloneId": "115:18",
+      "field": "layoutSizingHorizontal"
+    },
+    {
+      "sourceId": "0:19",
+      "cloneId": "115:18",
+      "field": "layoutSizingVertical"
+    },
+    {
+      "sourceId": "0:19",
+      "cloneId": "115:18",
+      "field": "textAutoResize"
+    },
+    {
+      "sourceId": "0:16",
+      "cloneId": "115:15",
+      "field": "textAutoResize"
+    }
+  ],
+  "imageReplacements": [
+    {
+      "sourceId": "0:395",
+      "cloneId": "115:394",
+      "field": "fills",
+      "index": 0
+    },
+    {
+      "sourceId": "0:394",
+      "cloneId": "115:393",
+      "field": "fills",
+      "index": 0
+    },
+    {
+      "sourceId": "0:393",
+      "cloneId": "115:392",
+      "field": "fills",
+      "index": 0
+    },
+    {
+      "sourceId": "0:392",
+      "cloneId": "115:391",
+      "field": "fills",
+      "index": 0
+    },
+    {
+      "sourceId": "0:209",
+      "cloneId": "115:208",
+      "field": "fills",
+      "index": 0
+    }
+  ],
+  "extraNodes": [
+    {
+      "id": "121:2",
+      "name": "Contact brand mark / 0:416",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:160",
+      "name": "Workflow mark / 0:169",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:159",
+      "name": "Workflow mark / 0:163",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:158",
+      "name": "Workflow mark / 0:146",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:157",
+      "name": "Workflow mark / 0:140",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:156",
+      "name": "Workflow mark / 0:132",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:154",
+      "name": "Workflow check / 0:123",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:155",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:152",
+      "name": "Workflow check / 0:122",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:153",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:150",
+      "name": "Workflow check / 0:121",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:151",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:148",
+      "name": "Workflow check / 0:120",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:149",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:146",
+      "name": "Workflow check / 0:119",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:147",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:144",
+      "name": "Workflow check / 0:112",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:145",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:142",
+      "name": "Workflow check / 0:111",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:143",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:140",
+      "name": "Workflow check / 0:110",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:141",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:138",
+      "name": "Workflow check / 0:109",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:139",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:136",
+      "name": "Workflow check / 0:108",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:137",
+      "name": "Vector",
+      "type": "VECTOR",
+      "approved": true
+    },
+    {
+      "id": "118:133",
+      "name": "Brand replacement / 0:420",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:135",
+      "name": "HongSik BlogWorld",
+      "type": "TEXT",
+      "approved": true
+    },
+    {
+      "id": "118:134",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "approved": true
+    },
+    {
+      "id": "118:130",
+      "name": "Brand replacement / 0:370",
+      "type": "FRAME",
+      "approved": true
+    },
+    {
+      "id": "118:132",
+      "name": "HongSik BlogWorld",
+      "type": "TEXT",
+      "approved": true
+    },
+    {
+      "id": "118:131",
+      "name": "Rectangle",
+      "type": "RECTANGLE",
+      "approved": true
+    }
+  ],
+  "needsReview": [],
+  "rootCanvasTranslationIgnored": {
+    "source": {
+      "x": -721,
+      "y": -3387
+    },
+    "clone": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "epsilon": 0.001,
+  "ignoredTextProperties": [
+    "characters",
+    "fontName.family"
+  ],
+  "mutatedNodeIds": []
+}

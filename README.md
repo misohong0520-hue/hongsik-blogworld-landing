@@ -2,7 +2,7 @@
 
 HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit 미션 5의 기획 → Figma 디자인 → 구현 → 검수 → 배포 흐름으로 진행합니다.
 
-**1단계 기반과 2단계 Figma 맞춤 시안을 완료했습니다.** 실행되는 웹 첫 화면은 여전히 기반 확인용이며, 최종 시안의 웹 화면 구현은 3단계에서 진행합니다.
+**1단계 기반과 2단계 원본 템플릿을 직접 복제한 Figma 시안을 완료했습니다.** 이전 재설계 초안은 폐기했습니다. 실행되는 웹 첫 화면은 여전히 기반 확인용이며, 수정 시안의 웹 화면 구현은 3단계에서 진행합니다.
 
 ## 확정된 운영 정보
 
@@ -12,7 +12,7 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 - GitHub: 6단계에서 생성·연결 예정. 현재는 독립 로컬 Git 저장소
 - 브랜드: 사용자 제공 초록 H 로고·파비콘
 - Figma: [SaaS Landing Pages 메인 프레임](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/Saas-Landing-Pages--Community-?node-id=0-7)
-- 맞춤 시안: [PC](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=104-45) · [모바일](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=104-46) · [모바일 메뉴](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=106-101)
+- 최종 시안: [원본 레이아웃을 유지한 PC](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=115-6) · [같은 구성의 모바일](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=123-5)
 
 ## 기술과 실행
 
@@ -50,7 +50,7 @@ src/lib/site.ts            이름·도메인·문의 등 공개 설정
 public/brand/              공개 브랜드 이미지
 ```
 
-3단계에서 `src/components/header/`, `hero/`, `features/`, `workflow/`, `faq/`, `footer/`에 실제 섹션을 구성합니다.
+3단계에서 `src/components/header/`, `hero/`, `workflow/`, `support/`, `features/`, `benefits/`, `process/`, `contact/`, `footer/`에 원본 템플릿 순서의 실제 섹션을 구성합니다.
 별도 URL이 필요하면 `src/app/<경로>/page.tsx`로 추가합니다.
 
 ## 검증 범위
@@ -58,5 +58,5 @@ public/brand/              공개 브랜드 이미지
 1단계의 타입 검사·정적 빌드·메인과 아이콘 HTTP 200·문의 링크 의미를 확인했습니다. 로컬 커밋으로 기록합니다.
 최종 인터랙션은 4단계, 시안 비교·반응형·접근성·Lighthouse는 5단계, 공개 주소·시크릿 창·기존 WordPress·재배포는 6단계에서 확인합니다.
 
-자세한 내용은 [단계별 구현 계획](docs/implementation-plan.md), [디자인 인계](docs/design-stage-2.md), [1단계 검증](docs/verification-stage-1.md), [2단계 검증](docs/verification-stage-2.md)을 참고하세요.
+자세한 내용은 [단계별 구현 계획](docs/implementation-plan.md), [원본 정렬 디자인 인계](docs/template-correction.md), [1단계 검증](docs/verification-stage-1.md), [최종 시안 검증](docs/verification-template-correction.md)을 참고하세요.
 기존 앱 소스·프롬프트·계정·DB·브라우저 프로필·서버 비밀키는 이 저장소에 포함하지 않습니다.
