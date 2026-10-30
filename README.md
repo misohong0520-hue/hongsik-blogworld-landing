@@ -2,7 +2,7 @@
 
 HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit 미션 5의 기획 → Figma 디자인 → 구현 → 검수 → 배포 흐름으로 진행합니다.
 
-**1·2단계에 이어 3단계 랜딩 화면 코드를 구현했습니다.** 최종 Figma의 PC·모바일 구성과 승인된 제품 이미지를 반영했습니다. 타입 검사·린트·정적 빌드·에셋/링크 검증은 통과했으며, 실제 브라우저 화면 비교는 도구 연결 오류로 아직 수행하지 못했습니다. [3단계 구현·검증 기록](docs/verification-stage-3.md)을 확인하세요.
+**3단계 화면과 4단계 인터랙션 코드를 구현했습니다.** 최종 Figma의 PC·모바일 구성과 승인된 제품 이미지를 반영했습니다. 타입 검사·정적 빌드·에셋/링크 검사와 인터랙션 DOM 테스트 8개를 통과했습니다. 실제 브라우저 검증은 도구 연결 오류로 아직 수행하지 못했습니다. [3단계 기록](docs/verification-stage-3.md)과 [4단계 기록](docs/verification-stage-4.md)을 확인하세요.
 
 ## 확정된 운영 정보
 
@@ -33,6 +33,7 @@ npm run dev
 ```bash
 npm run typecheck
 npm run lint
+npm run test:interactions
 npm run build
 node scripts/verify-export.mjs
 ```
@@ -66,7 +67,8 @@ design/stage3-assets.json  에셋·원본 노드 연결 기록
 ## 검증 범위
 
 3단계의 타입 검사·린트·정적 빌드·에셋 존재·앵커 대상·문의 링크를 확인했습니다. 실제 화면의 글꼴·줄바꿈·반응형·키보드 동작은 브라우저 연결 복구 후 검증해야 합니다.
-현재 메뉴와 버튼은 기본 HTML 앵커와 메일 앱 연결입니다. JavaScript 인터랙션은 4단계, 최종 시안 비교·접근성·Lighthouse는 5단계, 공개 주소·시크릿 창·기존 WordPress·재배포는 6단계에서 진행합니다.
+기본 HTML 앵커·메일 앱 연결을 유지하면서, 4단계에서 현재 섹션 메뉴 표시와 앵커 이동 후 키보드 포커스를 추가했습니다. 부드러운 스크롤은 동작 줄이기 설정을 존중합니다. `npm run test:interactions`는 실제 브라우저가 아닌 메모리상의 DOM에서 이벤트·포커스·현재 섹션 상태를 검증합니다. 원래 브라우저의 스크롤·이력·메일 앱 실행까지 검증한 것은 아닙니다.
+최종 시안 비교·접근성·Lighthouse는 5단계, 공개 주소·시크릿 창·기존 WordPress·재배포는 6단계에서 진행합니다.
 
 자세한 내용은 [단계별 구현 계획](docs/implementation-plan.md), [원본 정렬 디자인 인계](docs/template-correction.md), [1단계 검증](docs/verification-stage-1.md), [최종 시안 검증](docs/verification-template-correction.md)을 참고하세요.
 기존 앱 소스·프롬프트·계정·DB·브라우저 프로필·서버 비밀키는 이 저장소에 포함하지 않습니다.
