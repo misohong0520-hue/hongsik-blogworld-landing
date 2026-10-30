@@ -1,0 +1,11 @@
+.header { padding-top: 40px; position: relative; z-index: 1; }
+.row { display: flex; height: 40px; align-items: center; }
+.navigation { display: flex; align-items: center; gap: 40px; margin-left: auto; }
+.navigation a { color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 22px; text-decoration: none; }
+.navigation a:nth-child(1) { width: 51px; } .navigation a:nth-child(2) { width: 61px; } .navigation a:nth-child(3) { width: 31px; } .navigation a:nth-child(4) { width: 34px; } .navigation a:nth-child(5) { width: 71px; }
+.navigation .current { color: #000; font-size: 18px; }
+.actions { display: flex; gap: 20px; align-items: center; margin-left: 130px; }
+.guide { width: 43px; color: var(--landing-muted); font-size: 16px; text-decoration: none; }
+.contact { width: 80px; height: 40px; border-radius: 10px; font-size: 16px; }
+@media (max-width: 1300px) and (min-width: 901px) { .actions { margin-left: 40px; } .navigation { gap: 24px; } }
+@media (max-width: 900px) { .header { padding: 24px 0; background: white; } .row { justify-content: space-between; } .navigation, .guide { display: none; } .actions { margin: 0; } }

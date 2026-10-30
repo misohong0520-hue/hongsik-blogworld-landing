@@ -1,0 +1,36 @@
+.section { background: #f9f8fe; padding: 60px 0; }
+.layout { display: grid; grid-template-columns: minmax(0, 644fr) minmax(0, 509fr); gap: 27px; align-items: start; }
+.intro h2 { color: var(--landing-ink); font-size: 50px; font-weight: 700; line-height: 61px; margin: 0; }
+.description { color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 30px; min-height: 90px; margin: 30px 0 0; }
+.summaries { display: flex; gap: 80px; margin-top: 73px; }
+.summary { display: flex; flex-direction: column; gap: 18px; }
+.checks { display: flex; gap: 3px; }
+.checks img { width: 26px; height: 26px; }
+.summaryTitle, .caption { font-size: 18px; line-height: 22px; margin: 0; }
+.summaryTitle { font-weight: 700; color: var(--landing-ink); }
+.caption { font-weight: 700; color: var(--landing-muted); }
+.steps { display: flex; flex-direction: column; gap: 30px; }
+.step { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 21px; align-items: start; }
+.icon { width: 60px; height: 60px; display: grid; place-items: center; background: #fff; box-shadow: 0 4px 9px #0000000d; }
+.stepContent h3 { font-size: 28px; font-weight: 700; line-height: 34px; margin: 3px 0 13px; }
+.stepContent p { font-size: 18px; line-height: 30px; font-weight: 500; color: var(--landing-muted); margin: 0; min-height: 60px; }
+.first .stepContent p { min-height: 90px; }
+@media (max-width: 900px) {
+  .section { padding: 48px 0; }
+  .layout { display: flex; flex-direction: column; gap: 28px; }
+  .intro { width: 100%; display: flex; flex-direction: column; gap: 28px; }
+  .intro h2 { font-size: 28px; line-height: 41px; }
+  .description { margin: 0; min-height: 0; line-height: 26px; }
+  .summaries { margin: 0; gap: 22px; }
+  .summary { gap: 12px; width: 160px; max-width: calc((100% - 22px) / 2); }
+  .checks { gap: 4px; }
+  .checks img { width: 20px; height: 20px; }
+  .summaryTitle { font-size: 16px; line-height: 26px; }
+  .caption { font-size: 14px; line-height: 22px; }
+  .steps { width: 100%; gap: 28px; }
+  .step { grid-template-columns: 52px minmax(0, 1fr); gap: 16px; }
+  .icon { width: 52px; height: 52px; }
+  .stepContent h3 { margin: 0 0 8px; font-size: 22px; line-height: 33px; }
+  .stepContent p { font-size: 16px; line-height: 26px; min-height: 0; }
+  .first .stepContent p { min-height: 0; }
+}

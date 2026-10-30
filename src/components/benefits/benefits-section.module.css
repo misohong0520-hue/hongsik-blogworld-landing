@@ -1,0 +1,54 @@
+.section { padding: 0 0 130px; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 574px; gap: 40px; }
+.copy h2 { font-size: 50px; line-height: 61px; font-weight: 700; color: var(--landing-ink); margin: 0; }
+.list { display: flex; flex-direction: column; gap: 30px; margin: 50px 0 0; list-style: none; padding: 0; }
+.list li { display: flex; align-items: start; gap: 20px; font-size: 18px; line-height: 30px; font-weight: 500; }
+.list li > img { flex: none; width: 32px; height: 32px; }
+.visual { width: 574px; height: 543px; position: relative; }
+.photo { position: absolute; width: 450px; height: 529px; right: 0; top: 0; border-radius: 20px; object-fit: cover; object-position: bottom; }
+.flowCard { position: absolute; top: 36px; left: 0; width: 304px; height: 82px; background: white; box-shadow: 0 4px 9px #0000000d; border-radius: 10px; display: flex; align-items: center; padding: 12px 20px; gap: 16px; }
+.brand { width: 58px; height: 58px; flex: none; }
+.flowText { flex: 1; white-space: nowrap; }
+.flowText p { font-size: 16px; line-height: 19px; font-weight: 500; margin: 0 0 12px; }
+.flowText span { display: block; color: var(--landing-muted); font-size: 12px; line-height: 15px; font-weight: 500; }
+.chat { width: 40px; height: 40px; flex: none; }
+.draftCard { position: absolute; top: 121px; right: calc(-1 * clamp(0px, calc((100vw - 1228px) / 2), 69px)); width: 138px; height: 70px; border-radius: 10px; background: white; box-shadow: 0 4px 9px #0000000d; padding: 13px 12px; }
+.draftCard > span { display: block; font-size: 12px; line-height: 15px; color: #a9a7b6; }
+.draftCard p { margin: 9px 0 0; font-size: 16px; line-height: 19px; font-weight: 500; }
+.draftCard img { position: absolute; right: 12px; bottom: 14px; }
+.photoIcon { position: absolute; width: 40px; height: 40px; top: 282px; left: 59px; transform: rotate(-15deg); background: #74c9a9; border-radius: 10px; display: grid; place-items: center; }
+.checkCard { position: absolute; left: 18px; top: 475px; height: 68px; width: 302px; background: white; box-shadow: 0 4px 9px #0000000d; border-radius: 10px; display: flex; align-items: center; padding: 22px 25px; gap: 15px; }
+.checkCard p { white-space: nowrap; font-size: 18px; line-height: 22px; font-weight: 400; letter-spacing: -.54px; margin: 0; }
+.checkCard img { width: 24px; height: 24px; flex: none; }
+@media (max-width: 1100px) and (min-width: 901px) {
+  .layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .visual { width: 100%; }
+  .photo { width: 100%; object-fit: cover; }
+  .flowCard { left: -20px; }
+  .draftCard { right: -12px; }
+  .copy h2 { font-size: 44px; }
+}
+@media (max-width: 900px) {
+  .section { padding: 48px 0 56px; }
+  .layout { display: flex; flex-direction: column; gap: 28px; }
+  .copy h2 { font-size: 30px; line-height: 42px; }
+  .list { gap: 28px; margin: 28px 0 0; }
+  .list li { gap: 12px; font-size: 16px; line-height: 26px; }
+  .list li > img { width: 24px; height: 24px; }
+  .visual { width: 100%; max-width: 480px; height: auto; aspect-ratio: 342 / 418; align-self: center; }
+  .photo { width: 100%; height: 96.182%; border-radius: 15.2px; }
+  .flowCard { top: 6.699%; left: 0; width: 67.544%; height: 14.906%; border-radius: 7.599px; padding: 2.667% 4.444%; gap: 4.681%; }
+  .brand { width: 19.078%; height: auto; }
+  .flowText p { font-size: clamp(11px, 3.117vw, 15px); line-height: 1.2; margin: 0 0 10px; }
+  .flowText span { font-size: clamp(8px, 2.338vw, 11px); line-height: 1.25; }
+  .chat { width: 13.157%; height: auto; }
+  .draftCard { top: 22.249%; right: 0; width: 30.702%; height: 12.742%; border-radius: 7.609px; padding: 2.89% 2.67%; }
+  .draftCard > span { font-size: clamp(8px, 2.341vw, 11px); line-height: 1.25; }
+  .draftCard p { font-size: clamp(11px, 3.121vw, 15px); line-height: 1.2; margin-top: 7px; }
+  .draftCard img { width: 14.492%; height: auto; right: 9.13%; bottom: 20%; }
+  .photoIcon { top: 58.612%; left: 2.339%; width: 10.819%; height: auto; aspect-ratio: 1; border-radius: 9.25px; }
+  .photoIcon img { width: 50%; height: auto; }
+  .checkCard { top: 85.885%; left: 0; width: 67.251%; height: 12.389%; border-radius: 7.616px; padding: 0 5.567%; gap: 4.966%; }
+  .checkCard img { width: 7.947%; height: auto; }
+  .checkCard p { font-size: clamp(11px, 3.515vw, 16px); line-height: 1.25; letter-spacing: -.411px; }
+}

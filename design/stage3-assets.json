@@ -1,0 +1,243 @@
+{
+  "figmaFileKey": "h2yyAh96bomjU0WmO6NRiw",
+  "sourceNodes": {
+    "desktop": "115:6",
+    "mobile": "123:5"
+  },
+  "source": "get_design_context asset declarations; downloaded per response curl instructions",
+  "contexts": {
+    "desktop": {
+      "imgEllipse41": "/figma/08cdd.svg",
+      "imgEllipse36": "/figma/205f7.svg",
+      "imgEllipse37": "/figma/c5a56.svg",
+      "imgEllipse38": "/figma/c683b.svg",
+      "imgVector32": "/figma/3cbb8.svg",
+      "imgProcessAnchorArrowDown11520": "/figma/da4ba.svg",
+      "imgActivity1": "/figma/86fbc.svg",
+      "imgPieChart1": "/figma/caa0b.svg",
+      "imgCommand1": "/figma/21eee.svg",
+      "imgImage6": "/figma/3504f.svg",
+      "imgSubtract": "/figma/a37da.svg",
+      "imgGroup109": "/figma/f9c98.svg",
+      "imgBarChart22": "/figma/5abf6.svg",
+      "imgCircle1": "/figma/55850.svg",
+      "imgSubtract1": "/figma/26240.svg",
+      "imgSubtract2": "/figma/cef68.svg",
+      "imgEllipse53": "/figma/22562.svg",
+      "imgGroup212": "/figma/b515e.svg",
+      "imgEllipse59": "/figma/51020.svg",
+      "imgArrowRight11": "/figma/224e8.svg",
+      "imgEllipse61": "/figma/844d2.svg",
+      "imgWorkflowCheck0108": "/figma/aff4e.svg"
+    },
+    "mobile": {
+      "imgEllipse36": "/figma/6190a.svg",
+      "imgEllipse38": "/figma/50ba5.svg",
+      "imgProcessAnchorArrowDown12322": "/figma/da4ba.svg"
+    }
+  },
+  "assets": [
+    {
+      "path": "/figma/08cdd.svg",
+      "bytes": 664,
+      "width": "2634",
+      "height": "2634",
+      "viewBox": "0 0 2634 2634"
+    },
+    {
+      "path": "/figma/205f7.svg",
+      "bytes": 664,
+      "width": "2634",
+      "height": "2634",
+      "viewBox": "0 0 2634 2634"
+    },
+    {
+      "path": "/figma/c5a56.svg",
+      "bytes": 661,
+      "width": "2634",
+      "height": "2634",
+      "viewBox": "0 0 2634 2634"
+    },
+    {
+      "path": "/figma/c683b.svg",
+      "bytes": 662,
+      "width": "2634",
+      "height": "2634",
+      "viewBox": "0 0 2634 2634"
+    },
+    {
+      "path": "/figma/3cbb8.svg",
+      "bytes": 331,
+      "width": "487.002",
+      "height": "34.001",
+      "viewBox": "0 0 487.002 34.001"
+    },
+    {
+      "path": "/figma/da4ba.svg",
+      "bytes": 788,
+      "width": "40",
+      "height": "40",
+      "viewBox": "0 0 40 40"
+    },
+    {
+      "path": "/figma/86fbc.svg",
+      "bytes": 351,
+      "width": "30",
+      "height": "30",
+      "viewBox": "0 0 30 30"
+    },
+    {
+      "path": "/figma/caa0b.svg",
+      "bytes": 995,
+      "width": "30",
+      "height": "30",
+      "viewBox": "0 0 30 30"
+    },
+    {
+      "path": "/figma/21eee.svg",
+      "bytes": 1358,
+      "width": "30",
+      "height": "30",
+      "viewBox": "0 0 30 30"
+    },
+    {
+      "path": "/figma/3504f.svg",
+      "bytes": 1023,
+      "width": "20",
+      "height": "20",
+      "viewBox": "0 0 20 20"
+    },
+    {
+      "path": "/figma/a37da.svg",
+      "bytes": 485,
+      "width": "32",
+      "height": "32",
+      "viewBox": "0 0 32 32"
+    },
+    {
+      "path": "/figma/f9c98.svg",
+      "bytes": 910,
+      "width": "40",
+      "height": "40",
+      "viewBox": "0 0 40 40"
+    },
+    {
+      "path": "/figma/5abf6.svg",
+      "bytes": 597,
+      "width": "20",
+      "height": "20",
+      "viewBox": "0 0 20 20"
+    },
+    {
+      "path": "/figma/55850.svg",
+      "bytes": 817,
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "path": "/figma/26240.svg",
+      "bytes": 466,
+      "width": "26",
+      "height": "26",
+      "viewBox": "0 0 26 26"
+    },
+    {
+      "path": "/figma/cef68.svg",
+      "bytes": 466,
+      "width": "26",
+      "height": "26",
+      "viewBox": "0 0 26 26"
+    },
+    {
+      "path": "/figma/22562.svg",
+      "bytes": 244,
+      "width": "600",
+      "height": "600",
+      "viewBox": "0 0 600 600"
+    },
+    {
+      "path": "/figma/b515e.svg",
+      "bytes": 346,
+      "width": "45",
+      "height": "38",
+      "viewBox": "0 0 45 38"
+    },
+    {
+      "path": "/figma/51020.svg",
+      "bytes": 237,
+      "width": "46",
+      "height": "46",
+      "viewBox": "0 0 46 46"
+    },
+    {
+      "path": "/figma/224e8.svg",
+      "bytes": 439,
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "path": "/figma/844d2.svg",
+      "bytes": 230,
+      "width": "4",
+      "height": "4",
+      "viewBox": "0 0 4 4"
+    },
+    {
+      "path": "/figma/aff4e.svg",
+      "bytes": 348,
+      "width": "26",
+      "height": "26",
+      "viewBox": "0 0 26 26"
+    },
+    {
+      "path": "/figma/6190a.svg",
+      "bytes": 689,
+      "width": "1620.28",
+      "height": "1620.28",
+      "viewBox": "0 0 1620.28 1620.28"
+    },
+    {
+      "path": "/figma/50ba5.svg",
+      "bytes": 690,
+      "width": "1620.28",
+      "height": "1620.28",
+      "viewBox": "0 0 1620.28 1620.28"
+    }
+  ],
+  "notes": [
+    "Downloaded declarations include assets for invisible historical source layers; runtime callsites must use current approved visible nodes only.",
+    "Existing public/images/hero-product.png and public/brand/icon.png may be reused as exact source matches.",
+    "Removed unused asset declarations, including the hidden original person photo and duplicate hero source.",
+    "Context desk image32x32placeholder was replaced by verified450x529export of115:176.",
+    "The feature illustration frame exports are content images only; card titles and descriptions remain semantic HTML."
+  ],
+  "warnings": [],
+  "exports": [
+    {
+      "nodeId": "115:556",
+      "path": "/figma/feature-writing.png",
+      "width": 364,
+      "height": 430
+    },
+    {
+      "nodeId": "115:460",
+      "path": "/figma/feature-sources.png",
+      "width": 364,
+      "height": 430
+    },
+    {
+      "nodeId": "115:498",
+      "path": "/figma/feature-publishing.png",
+      "width": 364,
+      "height": 430
+    },
+    {
+      "nodeId": "115:176",
+      "path": "/figma/benefit-desk.png",
+      "width": 450,
+      "height": 529
+    }
+  ]
+}

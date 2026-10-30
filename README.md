@@ -2,7 +2,7 @@
 
 HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit 미션 5의 기획 → Figma 디자인 → 구현 → 검수 → 배포 흐름으로 진행합니다.
 
-**1단계 기반과 2단계 원본 템플릿을 직접 복제한 Figma 시안을 완료했습니다.** 이전 재설계 초안은 폐기했습니다. 실행되는 웹 첫 화면은 여전히 기반 확인용이며, 수정 시안의 웹 화면 구현은 3단계에서 진행합니다.
+**1·2단계에 이어 3단계 랜딩 화면 코드를 구현했습니다.** 최종 Figma의 PC·모바일 구성과 승인된 제품 이미지를 반영했습니다. 타입 검사·린트·정적 빌드·에셋/링크 검증은 통과했으며, 실제 브라우저 화면 비교는 도구 연결 오류로 아직 수행하지 못했습니다. [3단계 구현·검증 기록](docs/verification-stage-3.md)을 확인하세요.
 
 ## 확정된 운영 정보
 
@@ -13,7 +13,7 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 - 브랜드: 사용자 제공 초록 H 로고·파비콘
 - Figma: [SaaS Landing Pages 메인 프레임](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/Saas-Landing-Pages--Community-?node-id=0-7)
 - 최종 시안: [원본 레이아웃을 유지한 PC](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=115-6) · [같은 구성의 모바일](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=123-5)
-- 메인 이미지: 사용자 제공 실제 앱 화면을 담은 노트북 이미지로 PC·모바일 Figma 교체 완료. [교체 기록](docs/hero-product-image.md). 웹 화면 적용은 3단계에서 진행합니다.
+- 메인 이미지: 사용자 제공 실제 앱 화면을 담은 노트북 이미지로 PC·모바일 Figma와 웹 화면에 적용했습니다. [교체 기록](docs/hero-product-image.md).
 - 하단 사용 안내의 반복 로고·재생 버튼 행 제거 완료. [수정 기록](docs/usage-marks-removal.md). 모바일의 해당 여백도 줄였습니다.
 - 하단의 요청한 안내 문구 3줄을 PC·모바일에서 숨겼습니다. [변경 기록](docs/usage-notice-hidden.md). 상단 메뉴의 섹션 연결 계획은 [구현 계획](docs/implementation-plan.md)에 있습니다.
 - ‘과정 보기’의 재생 아이콘을 아래쪽 화살표로 교체했습니다. [교체 기록](docs/process-arrow.md).
@@ -32,7 +32,9 @@ npm run dev
 
 ```bash
 npm run typecheck
+npm run lint
 npm run build
+node scripts/verify-export.mjs
 ```
 
 빌드 결과는 `out/`입니다. 완성된 정적 파일을 AWS Nginx에서 제공하며 Vercel은 사용하지 않습니다.
@@ -50,18 +52,21 @@ src/app/page.tsx           메인 화면 조합
 src/app/favicon.ico        브라우저 탭 아이콘
 src/app/icon.png           초록 H 사이트 아이콘
 src/components/ui/         shadcn/ui 공통 요소
+src/components/<영역>/     섹션별 TSX·CSS 모듈
 src/lib/site.ts            이름·도메인·문의 등 공개 설정
 public/brand/              공개 브랜드 이미지
 public/images/             사용자 승인 제품 이미지
+public/figma/              현재 화면에 사용하는 Figma 에셋
+design/stage3-assets.json  에셋·원본 노드 연결 기록
 ```
 
-3단계에서 `src/components/header/`, `hero/`, `workflow/`, `support/`, `features/`, `benefits/`, `process/`, `contact/`, `footer/`에 원본 템플릿 순서의 실제 섹션을 구성합니다.
+`src/components/header/`, `hero/`, `workflow/`, `support/`, `features/`, `benefits/`, `process/`, `contact/`, `footer/`에 원본 템플릿 순서의 실제 섹션을 구성했습니다.
 별도 URL이 필요하면 `src/app/<경로>/page.tsx`로 추가합니다.
 
 ## 검증 범위
 
-1단계의 타입 검사·정적 빌드·메인과 아이콘 HTTP 200·문의 링크 의미를 확인했습니다. 로컬 커밋으로 기록합니다.
-최종 인터랙션은 4단계, 시안 비교·반응형·접근성·Lighthouse는 5단계, 공개 주소·시크릿 창·기존 WordPress·재배포는 6단계에서 확인합니다.
+3단계의 타입 검사·린트·정적 빌드·에셋 존재·앵커 대상·문의 링크를 확인했습니다. 실제 화면의 글꼴·줄바꿈·반응형·키보드 동작은 브라우저 연결 복구 후 검증해야 합니다.
+현재 메뉴와 버튼은 기본 HTML 앵커와 메일 앱 연결입니다. JavaScript 인터랙션은 4단계, 최종 시안 비교·접근성·Lighthouse는 5단계, 공개 주소·시크릿 창·기존 WordPress·재배포는 6단계에서 진행합니다.
 
 자세한 내용은 [단계별 구현 계획](docs/implementation-plan.md), [원본 정렬 디자인 인계](docs/template-correction.md), [1단계 검증](docs/verification-stage-1.md), [최종 시안 검증](docs/verification-template-correction.md)을 참고하세요.
 기존 앱 소스·프롬프트·계정·DB·브라우저 프로필·서버 비밀키는 이 저장소에 포함하지 않습니다.

@@ -1,0 +1,28 @@
+.section { padding: 130px 0; }
+.header { display: grid; grid-template-columns: minmax(0, 331fr) minmax(0, 461fr) 162px; gap: min(7.85vw, 113px); align-items: start; }
+.header h2 { color: var(--landing-ink); font-size: 50px; line-height: 61px; font-weight: 700; margin: 0; }
+.intro { color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; margin: 14px 0 0; }
+.cta { margin-top: 29px; width: 162px; height: 66px; border-radius: 70px; font-size: 18px; font-weight: 500; }
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 44px; margin-top: 74px; }
+.card { min-width: 0; }
+.illustration { display: block; width: 100%; height: auto; aspect-ratio: 364 / 430; border-radius: 20px; }
+.card h3 { color: var(--landing-ink); font-size: 30px; line-height: 30px; font-weight: 700; margin: 30px 0 20px; }
+.card p { color: var(--landing-muted); font-size: 18px; line-height: 30px; font-weight: 500; margin: 0; max-width: 340px; min-height: 60px; }
+@media (max-width: 1100px) and (min-width: 901px) {
+  .header { gap: 40px; }
+  .header h2 { font-size: 44px; }
+  .cards { gap: 28px; }
+  .card h3 { font-size: 26px; }
+}
+@media (max-width: 900px) {
+  .section { padding: 56px 0; }
+  .header { display: flex; flex-direction: column; align-items: start; gap: 28px; }
+  .header h2 { font-size: 30px; line-height: 42px; }
+  .intro { margin: 0; font-size: 16px; line-height: 26px; }
+  .cta { margin: 0; }
+  .cards { display: flex; flex-direction: column; gap: 28px; margin-top: 28px; }
+  .card { width: 100%; }
+  .illustration { border-radius: 18.79px; }
+  .card h3 { margin: 28.187px 0 18.791px; font-size: 28.187px; line-height: 28.187px; }
+  .card p { font-size: 16.912px; line-height: 28.187px; min-height: 56.374px; max-width: 319.451px; }
+}
