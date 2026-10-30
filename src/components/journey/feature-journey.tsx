@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { ArrowDown, ArrowRight, Check, FileText, Images, Layers, Search, Send, Sparkles, Video, Workflow } from "lucide-react";
+import { ArrowDown, ArrowRight, Check, FileText, Search, Send, Video, Workflow } from "lucide-react";
 import { JourneyMotion } from "./journey-motion";
+import { FeatureVideoMotion } from "./feature-video-motion";
+import { FeatureVideo } from "./feature-video";
 import styles from "./feature-journey.module.css";
 
 const stages = [
@@ -32,6 +34,7 @@ function Result({ children }: { children: React.ReactNode }) {
 export function FeatureJourney() {
   return <section id="features" className={styles.section} aria-labelledby="journey-title">
     <JourneyMotion />
+    <FeatureVideoMotion />
     <div className="landing-container">
       <div className={styles.intro}><p className={styles.eyebrow}>FROM IDEAS TO CONTENT</p><h2 id="journey-title">찾은 주제에서,<br />콘텐츠의 다음 가능성까지.</h2><p>글감 발견부터 제작·발행·재활용까지.<br className={styles.desktopBreak} /> 지금 필요한 기능을 따라 살펴보세요.</p></div>
       <div className={styles.layout}>
@@ -55,7 +58,7 @@ export function FeatureJourney() {
             <div className={styles.cardHeading}><span className={styles.step}>02 · AI 글쓰기</span><FileText size={24} aria-hidden="true" /></div>
             <h3 id="writing-title">빈 화면 앞의 고민을,<br />검토할 수 있는 원고로.</h3>
             <p className={styles.lead}>키워드나 참고할 원문 URL에서 시작하세요. 준비한 자료와 글쓰기 설정을 바탕으로 제목과 본문을 만들고, 이미지를 확인해 발행할 글을 준비합니다.</p>
-            <div className={styles.writingVisual} aria-label="자료 준비, 원고 작성, 검토·발행으로 이어지는 기능 안내"><div className={styles.sourcePill}><Layers size={18} />키워드 · 참고 자료</div><ArrowDown size={20} /><div className={styles.paper}><div className={styles.paperLabel}><Sparkles size={16} />AI 원고 작성</div><b>주제에 맞는 제목과 본문</b><span className={styles.textLine} /><span className={styles.textLine} /><span className={styles.textLineShort} /><div className={styles.paperBottom}><Images size={20} /><span>본문과 이미지 확인</span><Check size={16} /></div></div><span className={styles.visualCaption}>기능 흐름 안내</span></div>
+            <FeatureVideo name="writing" title="글쓰기 기능 시연" />
             <ul className={styles.points}><li><Check />제목 후보와 글쓰기 방식 선택</li><li><Check />준비한 자료를 활용한 AI 원고 작성</li><li><Check />제목·본문·이미지 검토 후 발행 단계 연결</li></ul>
             <Result>자료 준비 → AI 원고 작성 → 검토·발행. 한 흐름으로 이어집니다.</Result>
           </article>
@@ -63,8 +66,7 @@ export function FeatureJourney() {
             <div className={styles.cardHeading}><span className={styles.step}>03 · 카드뉴스·숏폼</span><Video size={24} aria-hidden="true" /></div>
             <h3 id="visual-title">이야기를 전하는 방법을,<br />글 밖으로 넓혀보세요.</h3>
             <p className={styles.lead}>읽는 콘텐츠뿐 아니라 넘겨 보는 카드뉴스와 짧게 보는 숏폼도 제작하세요. 전달할 주제에 맞춰 콘텐츠 형식을 선택할 수 있습니다.</p>
-            <div className={styles.formatVisual}><div className={styles.newsStack}><div className={styles.backCard} /><div className={styles.newsCard}><Images size={25} /><span>넘겨 보는 이야기</span><b>카드뉴스</b><div className={styles.smallLines} /><span className={styles.slideDots}>● ● ●</span></div></div><div className={styles.phone}><Video size={28} /><b>숏폼</b><span>짧게 전하는 핵심</span><div className={styles.timeline}><i /><i /><i /><i /><i /></div></div></div>
-            <p className={styles.visualCaption}>콘텐츠 형식 안내</p>
+            <FeatureVideo name="cardnews" title="카드뉴스 제작 시연" />
             <ul className={styles.points}><li><Check />주제에 맞는 카드뉴스 초안 제작</li><li><Check />문구와 디자인을 다듬는 편집</li><li><Check />대시보드 키워드에서 숏폼 제작으로 이동</li></ul>
             <Result>주제와 전달 목적에 맞는 형식으로 콘텐츠를 준비하세요.</Result>
           </article>
@@ -72,7 +74,7 @@ export function FeatureJourney() {
             <div className={styles.cardHeading}><span className={styles.step}>04 · 발행·리포스트</span><Send size={24} aria-hidden="true" /></div>
             <h3 id="publishing-title">완성한 콘텐츠,<br />한 채널에서 끝내지 마세요.</h3>
             <p className={styles.lead}>블로그에 글을 발행하고, 이미 작성한 글은 리포스트로 다른 플랫폼에서도 활용하세요. 채널마다 같은 작업을 반복하는 부담을 줄여줍니다.</p>
-            <div className={styles.publishVisual}><div className={styles.contentOrigin}><FileText size={24} /><b>완성한 콘텐츠</b></div><div className={styles.branchLine} /><div className={styles.channelGroups}><div><span>블로그 발행</span><p>네이버 · 워드프레스<br />블로그스팟 · 티스토리</p></div><div><span>리포스트</span><p>다른 블로그로 재활용<br />인스타그램 · 스레드</p></div></div></div>
+            <FeatureVideo name="repost" title="리포스트 기능 시연" />
             <ul className={styles.points}><li><Check />발행 계정과 등록 방식 선택</li><li><Check />작성한 글을 다른 플랫폼에 맞춰 재구성</li><li><Check />발행 결과와 URL 확인</li></ul>
             <Result>처음부터 다시 쓰는 수고를 줄이고, 콘텐츠의 활용 범위를 넓히세요.</Result>
           </article>
@@ -81,7 +83,7 @@ export function FeatureJourney() {
             <div className={styles.cardHeading}><span className={styles.step}>05 · 자동 실행·색인</span><Workflow size={24} aria-hidden="true" /></div>
             <h3 id="automation-title">반복하는 글쓰기와<br />발행 이후의 작업까지.</h3>
             <p className={styles.lead}>반복 운영에 필요한 자동 글쓰기 작업을 설정하고 진행 상황을 확인하세요. 발행한 글은 색인 요청 기능으로 검색엔진에 알리고 요청 결과를 관리할 수 있습니다.</p>
-            <div className={styles.operationVisual}><div><Workflow size={23} /><b>자동 글쓰기</b><p>작업 설정 · 실행 · 진행 확인</p></div><ArrowDown size={20} /><div><Search size={23} /><b>색인 요청</b><p>발행 글 선택 · 요청 · 결과 확인</p></div></div>
+            <FeatureVideo name="indexing" title="색인 요청 시연" />
             <ul className={styles.points}><li><Check />반복할 글쓰기 작업 설정</li><li><Check />실행 단계와 처리 결과 확인</li><li><Check />발행한 글의 색인 요청·기록 관리</li></ul>
             <Result>콘텐츠를 만드는 일과 발행 후 관리까지, 필요한 기능을 골라 활용하세요.</Result>
           </article>

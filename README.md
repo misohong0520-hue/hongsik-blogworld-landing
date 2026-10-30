@@ -10,6 +10,8 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 
 첫 화면은 ‘글감 고민은 줄이고, 콘텐츠는 더 다양하게.’로 바꾸고 짧은 본문·밑줄과 ‘주요 기능 살펴보기’ 버튼 하나로 정리했습니다. 이메일 보조 링크는 숨겼습니다. [변경 기록](docs/hero-refinement.md).
 
+곡선의 오른쪽 기능 카드에는 제공된 시연 영상 4개를 배치했습니다. 화면 중앙에 들어온 영상 하나만 무음 반복 재생하며, 스크롤 이탈·탭 숨김·사용자 일시정지를 처리합니다. [동작과 검증](docs/scroll-feature-videos.md).
+
 **AWS 서브도메인 배포와 GitHub 공개 소스 등록을 완료했습니다.**
 
 - 배포 URL: [blogworld.hongsik.blog](https://blogworld.hongsik.blog/)
