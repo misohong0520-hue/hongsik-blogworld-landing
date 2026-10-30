@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: site.name,
   description: site.description,
+  other: { "third-party-notices": "/third-party-notices.txt" },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

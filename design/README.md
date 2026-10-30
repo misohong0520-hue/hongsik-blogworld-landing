@@ -29,6 +29,6 @@ PNG는 검수·비교용 출력이다. 편집 원본은 Figma의 텍스트·오�
 
 재개할 때는 `figma-state.json`의 ID와 실제 Figma 상태를 확인한다. 원본 페이지나 기존 브랜드 페이지를 지우고 다시 실행하지 않는다. 세 스크립트의 중복 생성 방지 조건도 유지한다.
 
-아이콘 SVG 경로는 설치된 `lucide-react` 1.64.0의 arrow-right/menu/plus/check/x에서 가져왔다(ISC). H 로고는 사용자 제공 파일이며 템플릿 사진·기업 로고를 가져오지 않았다.
+폐기 초안의 아이콘 SVG 경로는 설치된 `lucide-react` 1.64.0의 arrow-right/menu/plus/check/x에서 가져왔다(ISC). 해당 초안에서는 템플릿 사진·기업 로고를 가져오지 않았다. 이후 최종 3단계 구현은 선택한 템플릿의 기능 이미지 3개와 작업 공간 사진을 사용한다. 현재 에셋과 원본 노드는 `stage3-assets.json`, 출처·라이선스 안내는 `../THIRD_PARTY_NOTICES.md`를 기준으로 한다. H 로고와 메인 제품 이미지는 사용자 제공 파일이다.
 
 화면 설명·전체 카피·색상·여백·반응형 인계 기준은 [디자인 인계](../docs/design-stage-2.md), 확인 범위는 [검증 기록](../docs/verification-stage-2.md)을 따른다.

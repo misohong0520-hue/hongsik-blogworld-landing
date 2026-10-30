@@ -1,0 +1,29 @@
+HongSik BlogWorld — third-party design and font notices
+
+Design reference: SaaS Landing Pages (Figma Community)
+Original resource and creator attribution:
+https://www.figma.com/community/file/1117683989281342298/saas-landing-pages
+
+The original creator is identified on the linked resource. This project does
+not claim authorship of the original template or endorsement by its creator.
+Figma's free Community file licensing information:
+https://help.figma.com/hc/en-us/articles/360042296374
+https://creativecommons.org/licenses/by/4.0/
+
+Adaptations include HongSik branding, Korean copy, a user-supplied product
+image, responsive implementation, text contrast and simplified footer menus.
+The three feature illustrations and workspace photo were exported from the
+selected template; their source nodes are recorded in design/stage3-assets.json
+in the source repository. Original photographs' separate authorship was not
+available in the template metadata; no photographer name is invented here.
+
+Fonts: Noto Sans KR and Inter, SIL Open Font License 1.1.
+The copyright notices and full licenses are provided at:
+/licenses/NotoSansKR-OFL.txt
+/licenses/Inter-OFL.txt
+
+Lucide-derived arrow asset: ISC License, notice provided at:
+/images/process-arrow-down.LICENSE.txt
+
+HongSik H logo and product image: supplied by the project owner.
+Third-party licenses do not change the ownership of the HongSik brand or app.
