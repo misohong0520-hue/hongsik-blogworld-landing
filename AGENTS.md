@@ -45,6 +45,7 @@
 - 정적 결과물 `out/`을 AWS Nginx의 별도 사이트 경로에서 제공한다. Vercel은 사용하지 않는다.
 - 로컬 Git은 이 프로젝트의 독립 저장소만 사용하고 `codex/` 브랜치에서 단계별 관련 파일만 커밋한다.
 - GitHub·AWS·DNS·HTTPS 변경은 6단계에서 수행한다. 기존 사이트 백업·회귀 확인과 재배포 검증을 포함한다.
+- 6단계에서 `https://github.com/misohong0520-hue/hongsik-blogworld-landing`의 공개 `main`과 `https://blogworld.hongsik.blog`를 연결했다. AWS는 `/var/www/hongsik-blogworld`와 전용 Nginx 설정을 사용한다. 재배포는 `docs/deployment.md`와 `scripts/package-release.mjs`를 따르고 WordPress 경로는 수정하지 않는다. 5단계의 브라우저·Lighthouse 미검증은 별도로 남아 있다.
 - 앱 소스·실행 파일·프롬프트·계정·DB·브라우저 프로필·로그·서버 비밀키를 커밋하지 않는다.
 
 <!-- BEGIN:nextjs-agent-rules -->
