@@ -7,9 +7,22 @@
 .description { width: 510px; max-width: 100%; margin: 28px 0 0; font-size: 16px; line-height: 1.9; font-weight: 400; color: var(--landing-muted); word-break: keep-all; overflow-wrap: anywhere; }
 .description span { display: block; }
 .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px 24px; margin-top: 32px; }
-.primary { min-width: 224px; min-height: 58px; height: auto; padding: 16px 26px; border-radius: 999px; font-size: 16px; line-height: 24px; font-weight: 500; gap: 12px; }
+.primary { min-width: 224px; min-height: 58px; height: auto; padding: 16px 26px; border-radius: 999px; font-size: 16px; line-height: 24px; font-weight: 500; gap: 12px; translate: 0 0; transition: translate 200ms ease, box-shadow 200ms ease, background-color 200ms ease; }
+.primary > svg { translate: 0 0; transition: translate 200ms ease; }
 .art { width: calc(100% + clamp(24px, calc((100vw - 1180px) / 2), 112px)); aspect-ratio: 701.68335 / 558.98956; position: relative; overflow: hidden; }
 .art img { position: absolute; max-width: none; width: 109.813%; height: auto; left: -5.01%; top: -18.45%; }
 @media (min-width: 901px) and (max-width: 1150px) { .section { padding-top: 84px; } .art { width: calc(100% + 24px); } .actions { gap: 10px 18px; } }
 @media (max-width: 900px) { .section { padding: 30px 0 48px; overflow: clip; } .layout { display: flex; flex-direction: column; gap: 32px; } .copy { width: 100%; } .copy h1 { font-size: clamp(28px, 8.8vw, 48px); } .underline { width: 190px; margin-top: 16px; } .description { width: 100%; margin-top: 24px; font-size: 15px; line-height: 1.85; } .actions { margin-top: 26px; } .art { width: 100%; max-width: 600px; align-self: center; } }
 @media (max-width: 520px) { .actions { align-items: flex-start; gap: 10px; } .primary { min-width: 0; width: 100%; max-width: 320px; min-height: 56px; } }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .primary:hover { translate: 0 -2px; box-shadow: 0 7px 18px #237b5726; }
+  .primary:hover > svg { translate: 0 3px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .primary:focus-visible { translate: 0 -2px; box-shadow: 0 7px 18px #237b5726; }
+  .primary:focus-visible > svg { translate: 0 3px; }
+  .primary:active { translate: 0 1px; box-shadow: 0 2px 6px #237b5720; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .primary, .primary:active, .primary > svg { translate: none; transition: none; }
+}
