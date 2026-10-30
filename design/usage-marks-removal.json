@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-30",
+  "baseCommit": "e148207",
+  "pass": true,
+  "removedNodeIds": [
+    "115:391",
+    "115:392",
+    "115:393",
+    "115:394",
+    "115:395",
+    "115:396",
+    "115:397",
+    "123:482",
+    "123:483",
+    "123:484",
+    "123:485",
+    "123:486",
+    "123:487",
+    "123:488",
+    "123:489"
+  ],
+  "mutatedNodeIds": [
+    "115:381",
+    "115:6",
+    "123:477",
+    "123:5",
+    "123:490",
+    "123:506"
+  ],
+  "expectedReduction": 98,
+  "before": [
+    {
+      "root": {
+        "id": "115:6",
+        "parent": "115:2",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 5850,
+        "rotation": 0,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      "count": 615,
+      "fingerprint": "22ff5330"
+    },
+    {
+      "root": {
+        "id": "123:5",
+        "parent": "115:2",
+        "x": 1600,
+        "y": 0,
+        "width": 390,
+        "height": 8988.66796875,
+        "rotation": 0,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            1600
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      "count": 544,
+      "fingerprint": "b4fc4166"
+    }
+  ],
+  "after": [
+    {
+      "root": {
+        "id": "115:6",
+        "parent": "115:2",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 5850,
+        "rotation": 0,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      "count": 608,
+      "fingerprint": "22ff5330"
+    },
+    {
+      "root": {
+        "id": "123:5",
+        "parent": "115:2",
+        "x": 1600,
+        "y": 0,
+        "width": 390,
+        "height": 8890.66796875,
+        "rotation": 0,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            1600
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "visible": true,
+        "opacity": 1,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      "count": 536,
+      "fingerprint": "b4fc4166"
+    }
+  ],
+  "beforeTracked": [
+    {
+      "id": "115:381",
+      "parent": "115:6",
+      "x": 130,
+      "y": 4763,
+      "width": 466,
+      "height": 588,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          130
+        ],
+        [
+          0,
+          1,
+          4763
+        ]
+      ],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "123:477",
+      "parent": "123:5",
+      "x": 0,
+      "y": 7096.3974609375,
+      "width": 390,
+      "height": 1892.270263671875,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          7096.3974609375
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.08627451211214066,
+            "g": 0.10980392247438431,
+            "b": 0.1568627506494522
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "123:490",
+      "parent": "123:477",
+      "x": 24,
+      "y": 548,
+      "width": 342,
+      "height": 526.221435546875,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          24
+        ],
+        [
+          0,
+          1,
+          548
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13342013955116272,
+            "g": 0.16255788505077362,
+            "b": 0.22083333134651184
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "123:506",
+      "parent": "123:477",
+      "x": 24,
+      "y": 1106.221435546875,
+      "width": 342,
+      "height": 746.0487670898438,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          24
+        ],
+        [
+          0,
+          1,
+          1106.221435546875
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "fills": []
+    }
+  ],
+  "afterTracked": [
+    {
+      "id": "115:381",
+      "parent": "115:6",
+      "x": 130,
+      "y": 4763,
+      "width": 466,
+      "height": 482,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          130
+        ],
+        [
+          0,
+          1,
+          4763
+        ]
+      ],
+      "visible": true,
+      "opacity": 1
+    },
+    {
+      "id": "123:477",
+      "parent": "123:5",
+      "x": 0,
+      "y": 7096.3974609375,
+      "width": 390,
+      "height": 1794.270263671875,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          7096.3974609375
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.08627451211214066,
+            "g": 0.10980392247438431,
+            "b": 0.1568627506494522
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "123:490",
+      "parent": "123:477",
+      "x": 24,
+      "y": 450,
+      "width": 342,
+      "height": 526.221435546875,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          24
+        ],
+        [
+          0,
+          1,
+          450
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13342013955116272,
+            "g": 0.16255788505077362,
+            "b": 0.22083333134651184
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "123:506",
+      "parent": "123:477",
+      "x": 24,
+      "y": 1008.221435546875,
+      "width": 342,
+      "height": 746.0487670898438,
+      "rotation": 0,
+      "relativeTransform": [
+        [
+          1,
+          0,
+          24
+        ],
+        [
+          0,
+          1,
+          1008.221435546875
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "fills": []
+    }
+  ],
+  "labels": [
+    {
+      "id": "115:387",
+      "characters": "사용 안내"
+    },
+    {
+      "id": "123:481",
+      "characters": "사용 안내"
+    }
+  ]
+}
