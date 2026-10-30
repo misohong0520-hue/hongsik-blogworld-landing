@@ -1,0 +1,536 @@
+{
+  "pass": true,
+  "frames": [
+    {
+      "root": {
+        "id": "115:6",
+        "parent": "115:2",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 5850,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 1,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "originalHero": {
+        "id": "115:23",
+        "parent": "115:13",
+        "type": "GROUP",
+        "x": 720,
+        "y": 210,
+        "width": 701.683349609375,
+        "height": 558.9895629882812,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 0,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            720
+          ],
+          [
+            0,
+            1,
+            210
+          ]
+        ]
+      },
+      "viewport": {
+        "id": "127:8",
+        "parent": "115:13",
+        "type": "FRAME",
+        "x": 720,
+        "y": 210,
+        "width": 701.683349609375,
+        "height": 558.9895629882812,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 1,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            720
+          ],
+          [
+            0,
+            1,
+            210
+          ]
+        ]
+      },
+      "image": {
+        "id": "127:9",
+        "parent": "127:8",
+        "type": "RECTANGLE",
+        "x": -35.15640640258789,
+        "y": -103.13214111328125,
+        "width": 770.5513916015625,
+        "height": 770.5513916015625,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 1,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            -35.15640640258789
+          ],
+          [
+            0,
+            1,
+            -103.13214111328125
+          ]
+        ]
+      },
+      "unaffectedCount": 558,
+      "expectedFingerprint": "4ac7999d",
+      "actualFingerprint": "4ac7999d",
+      "pass": true,
+      "nodeCount": 615,
+      "nodeTypes": {
+        "FRAME": 37,
+        "ELLIPSE": 62,
+        "GROUP": 170,
+        "TEXT": 132,
+        "VECTOR": 78,
+        "INSTANCE": 1,
+        "RECTANGLE": 99,
+        "STAR": 10,
+        "BOOLEAN_OPERATION": 25,
+        "POLYGON": 1
+      },
+      "imageNodes": [
+        {
+          "id": "115:28",
+          "name": "charlie-green-3JmfENcL24M-unsplash 1",
+          "type": "RECTANGLE",
+          "width": 437,
+          "height": 438,
+          "visible": true,
+          "imageHash": "8190ac5d85f014c54ca07d5dd60cffae2ebbf9c0"
+        },
+        {
+          "id": "127:9",
+          "name": "HongSik BlogWorld / user supplied laptop graphic",
+          "type": "RECTANGLE",
+          "width": 770.5513916015625,
+          "height": 770.5513916015625,
+          "visible": true,
+          "imageHash": "6aad229d33b688c8641f29205fae1aea98e3542a"
+        },
+        {
+          "id": "115:176",
+          "name": "Rectangle 48",
+          "type": "RECTANGLE",
+          "width": 450,
+          "height": 529,
+          "visible": true,
+          "imageHash": "f952ad38bb672fc5332c4f29f14334e1e5438788"
+        },
+        {
+          "id": "115:208",
+          "name": "Ellipse 33",
+          "type": "ELLIPSE",
+          "width": 58,
+          "height": 58,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "115:391",
+          "name": "Ellipse 54",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "115:392",
+          "name": "Ellipse 55",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "115:393",
+          "name": "Ellipse 56",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "115:394",
+          "name": "Ellipse 57",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:131",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:134",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:156",
+          "name": "Workflow mark / 0:132",
+          "type": "RECTANGLE",
+          "width": 34,
+          "height": 32,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:157",
+          "name": "Workflow mark / 0:140",
+          "type": "RECTANGLE",
+          "width": 38,
+          "height": 35,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:158",
+          "name": "Workflow mark / 0:146",
+          "type": "RECTANGLE",
+          "width": 30,
+          "height": 30,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:159",
+          "name": "Workflow mark / 0:163",
+          "type": "RECTANGLE",
+          "width": 40,
+          "height": 39.67742156982422,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "118:160",
+          "name": "Workflow mark / 0:169",
+          "type": "RECTANGLE",
+          "width": 30,
+          "height": 30,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "121:2",
+          "name": "Contact brand mark / 0:416",
+          "type": "RECTANGLE",
+          "width": 72.05857849121094,
+          "height": 86,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        }
+      ],
+      "fonts": [
+        "Noto Sans KR",
+        "Inter"
+      ],
+      "missingFontCount": 0
+    },
+    {
+      "root": {
+        "id": "123:5",
+        "parent": "115:2",
+        "type": "FRAME",
+        "x": 1600,
+        "y": 0,
+        "width": 390,
+        "height": 8988.66796875,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 1,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            1600
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "originalHero": {
+        "id": "123:24",
+        "parent": "123:12",
+        "type": "GROUP",
+        "x": 24,
+        "y": 419.2609558105469,
+        "width": 342,
+        "height": 272.4511413574219,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 0,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            24
+          ],
+          [
+            0,
+            1,
+            419.2609558105469
+          ]
+        ]
+      },
+      "viewport": {
+        "id": "127:10",
+        "parent": "123:12",
+        "type": "FRAME",
+        "x": 24,
+        "y": 419.2609558105469,
+        "width": 342,
+        "height": 272.4511413574219,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 1,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            24
+          ],
+          [
+            0,
+            1,
+            419.2609558105469
+          ]
+        ]
+      },
+      "image": {
+        "id": "127:11",
+        "parent": "127:10",
+        "type": "RECTANGLE",
+        "x": -17.135210037231445,
+        "y": -50.266536712646484,
+        "width": 375.56622314453125,
+        "height": 375.56622314453125,
+        "rotation": 0,
+        "visible": true,
+        "opacity": 1,
+        "relativeTransform": [
+          [
+            1,
+            0,
+            -17.135210037231445
+          ],
+          [
+            0,
+            1,
+            -50.266536712646484
+          ]
+        ]
+      },
+      "unaffectedCount": 487,
+      "expectedFingerprint": "12f8cbb2",
+      "actualFingerprint": "12f8cbb2",
+      "pass": true,
+      "nodeCount": 544,
+      "nodeTypes": {
+        "FRAME": 83,
+        "RECTANGLE": 76,
+        "TEXT": 123,
+        "GROUP": 112,
+        "ELLIPSE": 54,
+        "VECTOR": 70,
+        "INSTANCE": 1,
+        "BOOLEAN_OPERATION": 24,
+        "POLYGON": 1
+      },
+      "imageNodes": [
+        {
+          "id": "123:9",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:29",
+          "name": "charlie-green-3JmfENcL24M-unsplash 1",
+          "type": "RECTANGLE",
+          "width": 212.99351501464844,
+          "height": 213.4809112548828,
+          "visible": true,
+          "imageHash": "8190ac5d85f014c54ca07d5dd60cffae2ebbf9c0"
+        },
+        {
+          "id": "127:11",
+          "name": "HongSik BlogWorld / user supplied laptop graphic",
+          "type": "RECTANGLE",
+          "width": 375.56622314453125,
+          "height": 375.56622314453125,
+          "visible": true,
+          "imageHash": "6aad229d33b688c8641f29205fae1aea98e3542a"
+        },
+        {
+          "id": "123:83",
+          "name": "Workflow mark / 0:132",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:86",
+          "name": "Workflow mark / 0:140",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:89",
+          "name": "Workflow mark / 0:146",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:92",
+          "name": "Workflow mark / 0:163",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:95",
+          "name": "Workflow mark / 0:169",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:308",
+          "name": "Rectangle 48",
+          "type": "RECTANGLE",
+          "width": 342,
+          "height": 402.0400085449219,
+          "visible": true,
+          "imageHash": "f952ad38bb672fc5332c4f29f14334e1e5438788"
+        },
+        {
+          "id": "123:312",
+          "name": "Ellipse 33",
+          "type": "ELLIPSE",
+          "width": 44.07236862182617,
+          "height": 44.07236862182617,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:483",
+          "name": "Ellipse 54",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:484",
+          "name": "Ellipse 55",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:485",
+          "name": "Ellipse 56",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:486",
+          "name": "Ellipse 57",
+          "type": "ELLIPSE",
+          "width": 66,
+          "height": 66,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:492",
+          "name": "Contact brand mark / 0:416",
+          "type": "RECTANGLE",
+          "width": 58,
+          "height": 69.2214584350586,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        },
+        {
+          "id": "123:508",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "width": 24,
+          "height": 24,
+          "visible": true,
+          "imageHash": "0c68f228b065da4c76c3ed23056b0c5121040336"
+        }
+      ],
+      "fonts": [
+        "Inter",
+        "Noto Sans KR"
+      ],
+      "missingFontCount": 0
+    }
+  ]
+}

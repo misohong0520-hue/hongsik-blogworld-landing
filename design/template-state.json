@@ -2161,5 +2161,24 @@
     "mobileLayoutOverflow": 0,
     "desktopScreenshot": "design/desktop-template.png",
     "mobileScreenshot": "design/mobile-template.png"
+  },
+  "heroReplacement": {
+    "stateFile": "design/hero-product-state.json",
+    "verified": true,
+    "asset": "public/images/hero-product.png",
+    "slots": [
+      {
+        "frameId": "115:6",
+        "legacyHeroId": "115:23",
+        "viewportId": "127:8",
+        "imageId": "127:9"
+      },
+      {
+        "frameId": "123:5",
+        "legacyHeroId": "123:24",
+        "viewportId": "127:10",
+        "imageId": "127:11"
+      }
+    ]
   }
 }

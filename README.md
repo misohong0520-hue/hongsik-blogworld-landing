@@ -13,6 +13,7 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 - 브랜드: 사용자 제공 초록 H 로고·파비콘
 - Figma: [SaaS Landing Pages 메인 프레임](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/Saas-Landing-Pages--Community-?node-id=0-7)
 - 최종 시안: [원본 레이아웃을 유지한 PC](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=115-6) · [같은 구성의 모바일](https://www.figma.com/design/h2yyAh96bomjU0WmO6NRiw/HongSik-BlogWorld?node-id=123-5)
+- 메인 이미지: 사용자 제공 실제 앱 화면을 담은 노트북 이미지로 PC·모바일 Figma 교체 완료. [교체 기록](docs/hero-product-image.md). 웹 화면 적용은 3단계에서 진행합니다.
 
 ## 기술과 실행
 
@@ -48,6 +49,7 @@ src/app/icon.png           초록 H 사이트 아이콘
 src/components/ui/         shadcn/ui 공통 요소
 src/lib/site.ts            이름·도메인·문의 등 공개 설정
 public/brand/              공개 브랜드 이미지
+public/images/             사용자 승인 제품 이미지
 ```
 
 3단계에서 `src/components/header/`, `hero/`, `workflow/`, `support/`, `features/`, `benefits/`, `process/`, `contact/`, `footer/`에 원본 템플릿 순서의 실제 섹션을 구성합니다.
