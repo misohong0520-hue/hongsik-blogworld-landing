@@ -9,8 +9,7 @@
 .column a { display: inline-block; padding-block: 2px; color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 28px; text-decoration: none; }
 .column a:hover { color: #fff; text-decoration: underline; }
 .bottom { margin-top: 40px; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / 12%); }
-.bottomBrand { width: auto; height: 30px; }
-.bottomBrand span { font-size: 13px; }
+.legal { margin: 0; color: #a6a6a6; font-family: var(--font-inter, Inter), sans-serif; font-size: 14px; font-weight: 500; line-height: 22px; letter-spacing: .16em; text-transform: uppercase; overflow-wrap: anywhere; }
 @media (max-width: 900px) {
   .footer { padding: 56px 0 calc(98px + env(safe-area-inset-bottom, 0px)); }
   .grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
@@ -18,5 +17,5 @@
   .columns { gap: 24px; }
   .column ul { margin-top: 20px; gap: 10px; }
   .bottom { margin-top: 32px; padding-top: 20px; }
-  .bottomBrand span { font-size: 13px; }
+  .legal { font-size: 13px; letter-spacing: .12em; }
 }

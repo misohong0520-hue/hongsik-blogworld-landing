@@ -27,7 +27,7 @@ export function Footer() {
           </nav>
         </div>
         <div className={styles.bottom}>
-          <Brand className={styles.bottomBrand} />
+          <p className={styles.legal}>© 2026 TTJ · ALL RIGHTS RESERVED</p>
         </div>
       </div>
     </footer>
