@@ -6,6 +6,8 @@ HongSik BlogWorld 앱을 홍보하는 한국어 랜딩페이지입니다. Codeit
 
 큰 문의 섹션을 제거하고 푸터에 연락 채널 아이콘 7개만 작게 배치했습니다. 이메일은 `support@hongsik.blog`로 연결하며, 오른쪽 아래의 민트색 ‘사용 상담’ 링크는 아이콘 모음으로 이동합니다. [변경 기록](docs/contact-icons-floating.md).
 
+상단의 중복 안내·문의 링크는 단일 메뉴로 합쳤습니다. 홈·기능·이용 안내·사용 과정과 민트 문의 버튼을 같은 메뉴에 배치하며 모바일에서도 표시합니다. [변경 기록](docs/header-navigation-cleanup.md).
+
 **AWS 서브도메인 배포와 GitHub 공개 소스 등록을 완료했습니다.**
 
 - 배포 URL: [blogworld.hongsik.blog](https://blogworld.hongsik.blog/)

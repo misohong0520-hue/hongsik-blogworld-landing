@@ -6,8 +6,8 @@ import styles from "./header.module.css";
 const navigation = [
   ["홈", "home"],
   ["기능", "features"],
-  ["안내", "guide"],
-  ["과정", "process"],
+  ["이용 안내", "guide"],
+  ["사용 과정", "process"],
   ["문의", "contact"],
 ] as const;
 
@@ -56,7 +56,7 @@ export function HeaderNavigation() {
   return (
     <nav className={styles.navigation} aria-label="상단 메뉴">
       {navigation.map(([label, id]) => (
-        <a key={id} href={`#${id}`} className={current === id ? styles.current : undefined} aria-current={current === id ? "location" : undefined}>
+        <a key={id} href={`#${id}`} className={[current === id && styles.current, id === "contact" && styles.contact].filter(Boolean).join(" ") || undefined} aria-current={current === id ? "location" : undefined}>
           {label}
         </a>
       ))}
