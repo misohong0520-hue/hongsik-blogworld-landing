@@ -74,9 +74,9 @@ export function OperatorProblemsSection() {
     <section id="audience" className={styles.problems} aria-labelledby="audience-heading">
       <div className={`landing-container ${styles.problemGrid}`}>
         <div className={styles.problemIntro}>
-          <p className={styles.eyebrow}>매일 콘텐츠를 운영하는 당신에게</p>
-          <h2 id="audience-heading">운영할 채널이 늘수록,<br />반복되는 일도<br className={styles.desktopBreak} /> 많아집니다.</h2>
-          <p className={styles.sectionDescription}>개인 블로그부터 소규모 사업자의 콘텐츠 운영까지. 주제 선정과 자료 준비, 제작과 발행이 자연스럽게 이어지면 좋으니까요.</p>
+          <p className={styles.eyebrow}>콘텐츠 운영자의 익숙한 하루</p>
+          <h2 id="audience-heading"><span>찾고, 쓰고, 다시 올리고.</span><span>오늘도 반복하고 있나요?</span></h2>
+          <p className={styles.sectionDescription}>주제를 고르고 자료를 모은 뒤, 채널마다 다시 정리하는 일.<span className={styles.problemClosing}>흩어진 작업을 한 흐름으로 이어보세요.</span></p>
         </div>
         <ul className={styles.problemList}>
           {problems.map(({ icon: Icon, title, body }, index) => (
