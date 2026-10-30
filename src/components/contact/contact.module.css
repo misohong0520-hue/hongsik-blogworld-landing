@@ -8,13 +8,12 @@
 .card { display: flex; flex-direction: column; min-width: 0; padding: 40px 86px 65px; background: #222938; border-radius: 20px; }
 .brandMark { width: 72.059px; height: 86px; object-fit: contain; align-self: center; }
 .card h3 { margin: 10px 0 0; color: #fff; font-size: 30px; font-weight: 500; line-height: 36px; text-align: center; }
-.field { margin-top: 20px; }
-.firstField { margin-top: 10px; }
-.label { margin: 0; font-size: 18px; font-weight: 500; line-height: 22px; }
-.surface { display: flex; align-items: center; height: 50px; margin: 20px 0 0; padding: 0 20px; border-radius: 10px; background: #fff; color: #626d67; font-size: 14px; font-weight: 500; line-height: 20px; }
-.messageSurface { height: 80px; padding-top: 20px; align-items: flex-start; }
+.recipient { margin: 28px 0 0; }
+.recipient dt { color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 24px; }
+.recipient dd { margin: 8px 0 0; font-size: 18px; font-weight: 500; line-height: 28px; overflow-wrap: anywhere; }
+.help { margin: 24px 0 0; color: var(--landing-muted); font-size: 16px; font-weight: 500; line-height: 26px; }
 .emailAction { display: flex; height: 60px; width: 100%; margin-top: 20px; border-radius: 10px; background: var(--landing-mint); color: var(--landing-ink); font-size: 16px; font-weight: 700; text-decoration: none; }
-.note { margin: 10px 0 0; color: var(--landing-muted); font-size: 14px; font-weight: 500; line-height: 17px; text-align: right; }
+.note { margin: 16px 0 0; color: var(--landing-muted); font-size: 14px; font-weight: 500; line-height: 22px; }
 @media (max-width: 1100px) {
   .section { padding-top: 56px; }
   .grid { display: flex; flex-direction: column; gap: 32px; }
@@ -26,10 +25,7 @@
   .card { width: 100%; padding: 28px 24px; gap: 20px; }
   .brandMark { width: 58px; height: 69.221px; }
   .card h3 { margin: 0; font-size: 26px; line-height: 36px; }
-  .field, .firstField { display: flex; flex-direction: column; gap: 10px; margin: 0; }
-  .label { font-size: 16px; line-height: 26px; }
-  .surface { min-height: 50px; height: auto; margin: 0; padding: 14px 16px; line-height: 22px; }
-  .messageSurface { min-height: 62px; padding: 20px 16px; }
+  .recipient, .help { margin: 0; }
   .emailAction { min-height: 59px; height: auto; margin: 0; padding: 16px 0; font-size: 18px; line-height: 27px; }
   .note { margin: 0; line-height: 22px; text-align: left; }
 }
