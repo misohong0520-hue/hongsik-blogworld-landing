@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { buttonVariants } from "@/components/ui/button";
-import { site } from "@/lib/site";
 import styles from "./features-section.module.css";
 
 const features = [
@@ -16,7 +15,7 @@ export function FeaturesSection() {
         <div className={styles.header}>
           <h2 id="features-heading">블로그 운영,<br />이렇게 연결</h2>
           <p className={styles.intro}>키워드와 참고 자료를 정리하고, AI 원고를 작성한 뒤 내용을 검토하세요. 블로그 운영에 필요한 과정을 이어갑니다.</p>
-          <a href={site.supportHref} className={`${buttonVariants({ size: "lg" })} landing-cta ${styles.cta}`}>사용 문의</a>
+          <a href="#contact" className={`${buttonVariants({ size: "lg" })} landing-cta ${styles.cta}`}>사용 문의</a>
         </div>
         <div className={styles.cards}>
           {features.map((feature) => (
