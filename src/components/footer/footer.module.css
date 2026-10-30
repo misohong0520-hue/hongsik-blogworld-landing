@@ -1,4 +1,4 @@
-.footer { padding: 170px 0 40px; background: #161c28; color: #fff; }
+.footer { --landing-muted: #a6a6a6; padding: 170px 0 40px; background: #161c28; color: #fff; }
 .grid { display: grid; grid-template-columns: 410px minmax(0, 1fr); gap: 157px; }
 .brandColumn { min-width: 0; }
 .tagline { margin: 30px 0 0; color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; }

@@ -1,4 +1,4 @@
-.section { padding-top: 130px; background: #161c28; color: #fff; }
+.section { --landing-muted: #a6a6a6; padding-top: 130px; background: #161c28; color: #fff; }
 .grid { display: grid; grid-template-columns: 461px minmax(0, 612px); gap: 106px; }
 .copy h2 { margin: 0; max-width: 444px; font-size: 50px; font-weight: 700; line-height: 61px; }
 .description { margin: 20px 0 0; color: var(--landing-muted); font-size: 18px; font-weight: 500; line-height: 30px; }
@@ -11,9 +11,9 @@
 .field { margin-top: 20px; }
 .firstField { margin-top: 10px; }
 .label { margin: 0; font-size: 18px; font-weight: 500; line-height: 22px; }
-.surface { display: flex; align-items: center; height: 50px; margin: 20px 0 0; padding: 0 20px; border-radius: 10px; background: #fff; color: var(--landing-muted); font-size: 14px; font-weight: 500; line-height: 20px; }
+.surface { display: flex; align-items: center; height: 50px; margin: 20px 0 0; padding: 0 20px; border-radius: 10px; background: #fff; color: #626d67; font-size: 14px; font-weight: 500; line-height: 20px; }
 .messageSurface { height: 80px; padding-top: 20px; align-items: flex-start; }
-.emailAction { display: flex; height: 60px; width: 100%; margin-top: 20px; border-radius: 10px; background: var(--landing-mint); color: #fff; font-size: 16px; font-weight: 700; text-decoration: none; }
+.emailAction { display: flex; height: 60px; width: 100%; margin-top: 20px; border-radius: 10px; background: var(--landing-mint); color: var(--landing-ink); font-size: 16px; font-weight: 700; text-decoration: none; }
 .note { margin: 10px 0 0; color: var(--landing-muted); font-size: 14px; font-weight: 500; line-height: 17px; text-align: right; }
 @media (max-width: 1100px) {
   .section { padding-top: 56px; }

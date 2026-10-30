@@ -131,13 +131,14 @@
 :root {
   --landing-mint: #54bd95;
   --landing-ink: #191a15;
-  --landing-muted: #a6a6a6;
+  --landing-muted: #626d67;
+  --landing-link: #237b57;
 }
 html { scroll-padding-top: 24px; }
 body { margin: 0; color: var(--landing-ink); }
 .landing { position: relative; isolation: isolate; overflow: clip; background: #fff; font-family: var(--font-noto-kr), sans-serif; }
 .landing-container { width: calc(100% - 48px); max-width: 1180px; margin-inline: auto; }
-.landing-cta { background: var(--landing-mint); color: #fff; box-shadow: none; }
+.landing-cta { background: var(--landing-mint); color: var(--landing-ink); box-shadow: none; }
 .landing-cta:hover { background: #43aa83; }
 .landing a:focus-visible { outline: 3px solid #16845c; outline-offset: 5px; }
 .landing :is(h1, h2, main)[tabindex="-1"]:focus-visible { outline: 3px solid #16845c; outline-offset: 6px; }

@@ -4,25 +4,25 @@
 .intro { margin: 40px 0 0; color: var(--landing-muted); font-size: 18px; font-weight: 700; line-height: 22px; text-align: center; }
 .segment { width: 340px; height: 70px; margin-top: 40px; padding: 7px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; background: #fff; border-radius: 10px; box-shadow: 0 4px 9px rgb(0 0 0 / 5%); }
 .segment a { display: flex; align-items: center; justify-content: center; border-radius: 10px; font-size: 18px; font-weight: 500; line-height: 30px; text-decoration: none; }
-.segmentAccent { background: var(--landing-mint); color: #fff; }
+.segmentAccent { background: var(--landing-mint); color: var(--landing-ink); }
 .cards { width: 100%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: center; gap: 29px; margin-top: 67px; transform: translateX(11px); }
 .card { --u: 1px; position: relative; isolation: isolate; min-width: 0; overflow: hidden; border-radius: calc(20 * var(--u)); background: #fff; box-shadow: 0 4px 9px rgb(0 0 0 / 5%); }
-.featured { background: var(--landing-mint); color: #fff; }
+.featured { background: var(--landing-mint); color: var(--landing-ink); }
 .cardGlow { position: absolute; z-index: -1; left: calc(-113 * var(--u)); top: calc(146 * var(--u)); max-width: none; width: calc(600 * var(--u)); height: calc(600 * var(--u)); }
 .cardHeader { padding: calc(40 * var(--u)) calc(20 * var(--u)) calc(30 * var(--u)); text-align: center; }
 .cardHeader h3 { margin: 0; font-size: calc(30 * var(--u)); font-weight: 700; line-height: calc(36 * var(--u)); }
 .description { margin: calc(10 * var(--u)) 0 0; color: var(--landing-muted); font-size: calc(18 * var(--u)); font-weight: 500; line-height: calc(27 * var(--u)); }
-.featured .description { color: #fff; }
+.featured .description { color: var(--landing-ink); }
 .number { margin: calc(39 * var(--u)) 0 0; font-family: var(--font-inter, Inter), sans-serif; font-size: calc(50 * var(--u)); font-weight: 600; line-height: calc(30 * var(--u)); }
 .featured .cardHeader { padding-bottom: calc(15 * var(--u)); }
-.status { display: flex; width: calc(130 * var(--u)); min-height: calc(40 * var(--u)); align-items: center; justify-content: center; margin: calc(16 * var(--u)) auto 0; border-radius: calc(10 * var(--u)); background: #85dab9; color: #fff; font-size: calc(14 * var(--u)); font-weight: 700; line-height: calc(30 * var(--u)); }
+.status { display: flex; width: calc(130 * var(--u)); min-height: calc(40 * var(--u)); align-items: center; justify-content: center; margin: calc(16 * var(--u)) auto 0; border-radius: calc(10 * var(--u)); background: #85dab9; color: var(--landing-ink); font-size: calc(14 * var(--u)); font-weight: 700; line-height: calc(30 * var(--u)); }
 .cardBody { position: relative; margin: 0 calc(20 * var(--u)) calc(25 * var(--u)); padding: calc(26 * var(--u)) calc(37 * var(--u)) calc(25 * var(--u)); border-radius: calc(10 * var(--u)); background: #f9fafb; color: var(--landing-ink); }
 .featured .cardBody { background: #fff; margin-bottom: calc(24 * var(--u)); }
 .taskList { display: flex; flex-direction: column; gap: calc(22 * var(--u)); padding: 0; margin: 0; list-style: none; }
 .taskList li { display: flex; gap: calc(10 * var(--u)); align-items: center; min-height: calc(30 * var(--u)); white-space: nowrap; font-size: calc(18 * var(--u)); font-weight: 500; line-height: calc(30 * var(--u)); }
 .taskList img { width: calc(26 * var(--u)); height: calc(26 * var(--u)); flex-shrink: 0; }
-.cardAction { display: flex; width: 100%; height: calc(64 * var(--u)); margin-top: calc(27 * var(--u)); border-radius: calc(20 * var(--u)); background: #fff; color: var(--landing-mint); box-shadow: 0 4px 9px rgb(0 0 0 / 5%); font-size: calc(18 * var(--u)); font-weight: 700; line-height: calc(30 * var(--u)); text-decoration: none; }
-.featured .cardAction { background: var(--landing-mint); color: #fff; }
+.cardAction { display: flex; width: 100%; height: calc(64 * var(--u)); margin-top: calc(27 * var(--u)); border-radius: calc(20 * var(--u)); background: #fff; color: var(--landing-link); box-shadow: 0 4px 9px rgb(0 0 0 / 5%); font-size: calc(18 * var(--u)); font-weight: 700; line-height: calc(30 * var(--u)); text-decoration: none; }
+.featured .cardAction { background: var(--landing-mint); color: var(--landing-ink); }
 @media (max-width: 1100px) {
   .section { padding: 48px 0 64px; }
   .title { font-size: 30px; line-height: 42px; }

@@ -10,6 +10,27 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: site.name,
   description: site.description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "ko_KR",
+    url: site.url,
+    siteName: site.name,
+    title: site.name,
+    description: site.description,
+    images: [{
+      url: "/images/hero-product.png",
+      width: 1600,
+      height: 1600,
+      alt: "HongSik BlogWorld의 키워드 분석·AI 글쓰기·발행을 소개하는 제품 이미지",
+    }],
+  },
+  twitter: {
+    card: "summary",
+    title: site.name,
+    description: site.description,
+    images: [{ url: "/images/hero-product.png", alt: "HongSik BlogWorld 제품 이미지" }],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
